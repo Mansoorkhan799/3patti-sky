@@ -2,23 +2,23 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Contact Us - Card Rummy | Get Help & Support',
-  description: 'Contact Card Rummy support team for help with the app, content, privacy policy, and more. We are here to assist you.',
-  keywords: 'contact card rummy, card rummy support, card rummy email, customer support, help card rummy',
+  title: 'Contact Us - 3Patti Sky | Get Help & Support',
+  description: 'Contact 3Patti Sky support team for help with the app, content, privacy policy, and more. We are here to assist you.',
+  keywords: 'contact 3patti sky, 3patti sky support, 3patti sky email, customer support, help 3patti sky',
   openGraph: {
-    title: 'Contact Us - Card Rummy',
-    description: 'Get in touch with Card Rummy support team for any queries or assistance.',
-    url: 'https://cardrummyapp.com.pk/contact-us',
-    siteName: 'Card Rummy',
+    title: 'Contact Us - 3Patti Sky',
+    description: 'Get in touch with 3Patti Sky support team for any queries or assistance.',
+    url: 'https://3pattiskygame.com.pk/contact-us',
+    siteName: '3Patti Sky',
     type: 'website',
   },
   twitter: {
     card: 'summary',
-    title: 'Contact Us - Card Rummy',
-    description: 'Get in touch with Card Rummy support team for any queries or assistance.',
+    title: 'Contact Us - 3Patti Sky',
+    description: 'Get in touch with 3Patti Sky support team for any queries or assistance.',
   },
   alternates: {
-    canonical: 'https://cardrummyapp.com.pk/contact-us',
+    canonical: 'https://3pattiskygame.com.pk/contact-us',
   },
   robots: {
     index: true,
@@ -41,27 +41,26 @@ export default function Contact() {
           <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12 mb-8">
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-gray-300 leading-relaxed mb-8">
-                Welcome to the Contact Us page of this site. Here, we will share the source to contact us. Feel free to contact us if you are facing any problems regarding our site, such as <Link href="/" className="text-accent hover:underline font-semibold">Card Rummy</Link> APP related content or <Link href="/about-us" className="text-accent hover:text-accent font-semibold">About us</Link>, <Link href="/privacy" className="text-accent hover:text-accent font-semibold">privacy policy</Link>, etc.
+                Welcome to the Contact Us page of this site. Here, we will share the source to contact us. Feel free to contact us if you are facing any problems regarding our site, such as <Link href="/" className="text-accent hover:underline font-semibold">3patti Sky</Link>-related content or <Link href="/about-us" className="text-accent hover:text-accent font-semibold">About us</Link>, <Link href="/privacy" className="text-accent hover:text-accent font-semibold">privacy policy</Link>, etc.
               </p>
 
               {/* Email Contact Section */}
-              <div className="bg-secondary rounded-xl p-8 border-2 border-orange-200">
+              <div className="bg-secondary rounded-xl p-8 border-2 border-accent">
                 <div className="flex items-center justify-center mb-4">
                   <svg className="w-16 h-16 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                   </svg>
                 </div>
-                <h2 className="text-2xl md:text-3xl font-bold text-center mb-4 text-white">Email Us</h2>
-                <p className="text-center mb-4 text-gray-400">Send us your questions or concerns via email</p>
+                <h2 className="text-2xl md:text-3xl font-bold text-center mb-4 text-white">E-Mail</h2>
                 <div className="text-center">
                   <a 
-                    href="mailto:support@cardrummyapp.com.pk" 
+                    href="mailto:abbasghuulam16@gmail.com" 
                     className="inline-flex items-center justify-center bg-accent hover:bg-accent/90 text-primary font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
                   >
                     <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                     </svg>
-                    support@cardrummyapp.com.pk
+                    abbasghuulam16@gmail.com
                   </a>
                 </div>
               </div>
@@ -77,7 +76,7 @@ export default function Contact() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold mb-2 text-white">App Information</h3>
-              <p className="text-gray-400 mb-4">Need help with the Card Rummy app?</p>
+              <p className="text-gray-400 mb-4">Need help with the 3Patti Sky app?</p>
               <Link href="/" className="text-accent hover:text-accent font-semibold">
                 Learn More →
               </Link>
@@ -121,11 +120,11 @@ export default function Contact() {
             "@type": "ContactPage",
             "mainEntity": {
               "@type": "Organization",
-              "name": "Card Rummy",
-              "url": "https://cardrummyapp.com.pk",
+              "name": "3Patti Sky",
+              "url": "https://3pattiskygame.com.pk",
               "contactPoint": {
                 "@type": "ContactPoint",
-                "email": "support@cardrummyapp.com.pk",
+                "email": "abbasghuulam16@gmail.com",
                 "contactType": "Customer Support",
                 "availableLanguage": ["English", "Urdu"]
               }

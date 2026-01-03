@@ -3,16 +3,16 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Download Card Rummy Game Free APK For Android | Latest Version 2026',
-  description: 'Download Card Rummy APK free for Android. Play Teen Patti, Rummy, Dragon Tiger & more. Earn real cash with JazzCash & EasyPaisa. Latest version V1.225 - 49MB.',
+  title: 'Download 3Patti Sky Game Free APK For Android | Latest Version 2026',
+  description: 'Download 3Patti Sky APK free for Android. Play Teen Patti, Rummy, Dragon Tiger & more. Earn real cash with JazzCash & EasyPaisa. Latest version V1.199(1) - 49MB.',
   keywords: [
-    'Download Card Rummy',
-    'Card Rummy APK download',
-    'Card Rummy Android',
+    'Download 3Patti Sky',
+    '3Patti Sky APK download',
+    '3Patti Sky Android',
     'Teen Patti download',
     'Free card game APK',
-    'Card Rummy latest version',
-    'Download 3 Patti Card Rummy'
+    '3Patti Sky latest version',
+    'Download 3 Patti Sky'
   ],
   robots: {
     index: true,
@@ -25,55 +25,100 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://cardrummyapp.com.pk/download-card-rummy",
+    canonical: "https://3pattiskygame.com.pk/download-3patti-sky",
   },
   openGraph: {
-    title: 'Download Card Rummy Game Free APK For Android',
-    description: 'Download Card Rummy APK free. Play Teen Patti, Rummy & more. Earn real cash with secure payments. 500K+ downloads!',
-    url: "https://cardrummyapp.com.pk/download-card-rummy",
-    siteName: "Card Rummy",
+    title: 'Download 3Patti Sky Game Free APK For Android',
+    description: 'Download 3Patti Sky APK free. Play Teen Patti, Rummy & more. Earn real cash with secure payments. 600K+ downloads!',
+    url: "https://3pattiskygame.com.pk/download-3patti-sky",
+    siteName: "3Patti Sky",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://cardrummyapp.com.pk/card-rummy-logo.webp",
+        url: "https://3pattiskygame.com.pk/3patti-sky-logo.webp",
         width: 1200,
         height: 630,
-        alt: "Download Card Rummy APK",
+        alt: "Download 3Patti Sky APK",
       }
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: 'Download Card Rummy Game Free APK For Android',
-    description: 'Download Card Rummy APK free. Play Teen Patti, Rummy & more. Earn real cash with secure payments. 500K+ downloads!',
-    images: ["https://cardrummyapp.com.pk/card-rummy-logo.webp"],
+    title: 'Download 3Patti Sky Game Free APK For Android',
+    description: 'Download 3Patti Sky APK free. Play Teen Patti, Rummy & more. Earn real cash with secure payments. 600K+ downloads!',
+    images: ["https://3pattiskygame.com.pk/3patti-sky-logo.webp"],
   },
 };
 
 export default function DownloadPage() {
+  // Schema.org structured data for download page
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "3Patti Sky",
+    "operatingSystem": "Android 5.0+",
+    "applicationCategory": "GameApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "PKR",
+      "availability": "https://schema.org/InStock"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.5",
+      "ratingCount": "600000",
+      "bestRating": "5"
+    },
+    "downloadUrl": "https://3pattiskypk1.com?from_gameid=5286189&channelCode=100000",
+    "softwareVersion": "V1.199(1)",
+    "fileSize": "49MB",
+    "datePublished": "2025-11-01",
+    "description": "Download 3Patti Sky APK free for Android. Play Teen Patti, Rummy, Dragon Tiger & more. Earn real cash with JazzCash & EasyPaisa.",
+    "screenshot": [
+      "https://3pattiskygame.com.pk/3patti-sky-screenshot1.webp",
+      "https://3pattiskygame.com.pk/3patti-sky-screenshot2.webp",
+      "https://3pattiskygame.com.pk/3patti-sky-screenshot3.webp"
+    ],
+    "image": "https://3pattiskygame.com.pk/3patti-sky-logo.webp",
+    "author": {
+      "@type": "Organization",
+      "name": "3Patti Sky",
+      "url": "https://3pattiskygame.com.pk"
+    },
+    "inLanguage": ["en", "ur"],
+    "countriesSupported": "PK"
+  };
+
   return (
     <>
+      {/* Schema.org JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+      
       {/* Hero Section */}
       <section className="py-8 md:py-16 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
             <span className="text-white">Download </span>
-            <span className="text-[#FFA500]">Card Rummy Game</span>
+            <span className="text-[#FFA500]">3Patti Sky Game</span>
             <span className="text-white"> Free APK</span>
           </h1>
           <h2 className="text-2xl md:text-3xl font-semibold text-gray-300 mb-6">
             For Android
           </h2>
           <p className="text-lg text-gray-300 leading-relaxed max-w-4xl mx-auto">
-            <Link href="/" className="text-accent hover:underline font-semibold">Card Rummy</Link> is a hub of top popular casino games like cards, poker, Rummy, Crash, Dragon Tiger, and much more. You can download this game free of cost.
+            <Link href="/" className="text-accent hover:underline font-semibold">3Patti Sky</Link> is a hub of top popular casino games like cards, poker, Rummy, Crash, Dragon Tiger, and much more. You can download this game free of cost.
           </p>
         </div>
 
         {/* Download Button - Prominent */}
         <div className="flex justify-center my-12">
           <a 
-            href="https://pkcardrummy.com/?from_gameid=5784509&channelCode=100000"
+            href="https://3pattiskypk1.com?from_gameid=5286189&channelCode=100000"
             target="_blank"
             rel="noopener noreferrer"
             className="relative flex items-center px-12 py-6 text-white font-bold text-xl rounded-full border-2 border-[#0ea5e9] hover:bg-[#0ea5e9]/10 transition-all group shadow-2xl"
@@ -89,7 +134,7 @@ export default function DownloadPage() {
 
         <div className="flex justify-center mb-8">
           <span className="bg-[#0A1029] text-[#4ade80] px-6 py-2 rounded-full text-sm font-semibold">
-            ⚡ Fast APK Download
+            ⚡ Download Now Fast APK
           </span>
         </div>
 
@@ -97,8 +142,8 @@ export default function DownloadPage() {
         <div className="flex justify-center mb-12">
           <div className="relative" style={{ width: '320px', height: '320px', maxWidth: '100%' }}>
             <Image
-              src="/card-rummy.webp"
-              alt="Card Rummy Logo"
+              src="/3PattiSky.webp"
+              alt="3Patti Sky Logo"
               width={320}
               height={320}
               className="object-contain drop-shadow-2xl"
@@ -119,11 +164,11 @@ export default function DownloadPage() {
               <tbody className="divide-y divide-gray-800">
                 <tr className="bg-[#0a1029]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">App Name</td>
-                  <td className="py-4 px-6 text-left text-white">Card Rummy</td>
+                  <td className="py-4 px-6 text-left text-white">3Patti Sky</td>
                 </tr>
                 <tr className="bg-[#06091F]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Version</td>
-                  <td className="py-4 px-6 text-left text-white">V1.225</td>
+                  <td className="py-4 px-6 text-left text-white">V1.199(1)</td>
                 </tr>
                 <tr className="bg-[#0a1029]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Size</td>
@@ -135,7 +180,7 @@ export default function DownloadPage() {
                 </tr>
                 <tr className="bg-[#0a1029]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Update</td>
-                  <td className="py-4 px-6 text-left text-white">1st January 2026</td>
+                  <td className="py-4 px-6 text-left text-white">1 Hour Ago</td>
                 </tr>
                 <tr className="bg-[#06091F]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Price</td>
@@ -149,7 +194,7 @@ export default function DownloadPage() {
         {/* Download Button After Table */}
         <div className="flex justify-center mt-8">
           <a 
-            href="https://pkcardrummy.com/?from_gameid=5784509&channelCode=100000"
+            href="https://3pattiskypk1.com?from_gameid=5286189&channelCode=100000"
             target="_blank"
             rel="noopener noreferrer"
             className="download-btn bg-transparent hover:bg-[#0ea5e9]/10 text-white font-bold py-4 px-8 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-xl border-2 border-[#0ea5e9]"
@@ -168,7 +213,7 @@ export default function DownloadPage() {
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto" id="download-steps">
         <div className="bg-secondary rounded-xl p-8">
           <h2 className="text-2xl md:text-3xl font-bold mb-8 text-[#FFA500] text-center">
-            Process to Download & Install Card Rummy
+            Process to Download & Install 3Patti Sky
           </h2>
           
           <div className="space-y-6 max-w-4xl mx-auto">
@@ -176,7 +221,7 @@ export default function DownloadPage() {
             <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#FFA500]">
               <h3 className="text-xl font-bold text-[#FFA500] mb-3">Step 01: Download APK</h3>
               <p className="text-gray-300 leading-relaxed">
-                Click on download button to get Card Rummy Game APK. Wait for automatic download completion.
+                Click on download button to get 3Patti Sky Game APK. Wait for automatic download completion.
               </p>
             </div>
 
@@ -192,7 +237,7 @@ export default function DownloadPage() {
             <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#60a5fa]">
               <h3 className="text-xl font-bold text-[#60a5fa] mb-3">Step 03: Install APK</h3>
               <p className="text-gray-300 leading-relaxed">
-                Locate the downloaded file, tap on it and click on install. Let this process to be done automatically.
+                Locate the downloaded file, tab on it and click on install. Let this process to be done automatically.
               </p>
             </div>
 
@@ -200,7 +245,7 @@ export default function DownloadPage() {
             <div className="bg-[#0A1029] rounded-lg p-6 border-l-4 border-[#f97316]">
               <h3 className="text-xl font-bold text-[#f97316] mb-3">Step 04: Start Earning</h3>
               <p className="text-gray-300 leading-relaxed">
-                Finally, Card Rummy is successfully installed on your device, open it and start your journey with your first deposit in this earning app and grab opportunity to earn a lot of money.
+                Finally, 3patti Sky is successfully installed on your device, open it and start your journey with your first deposit in this earning app and grab opportunity to earn a lot of money.
               </p>
             </div>
           </div>
@@ -210,7 +255,7 @@ export default function DownloadPage() {
       {/* Features Highlight */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-bold mb-8 text-[#FFA500] text-center">
-          Why Download Card Rummy?
+          Why Download 3Patti Sky?
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="bg-secondary px-8 py-8 rounded-lg text-center">

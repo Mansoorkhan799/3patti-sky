@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 
 export async function GET() {
-  const baseUrl = 'https://cardrummyapp.com.pk';
+  const baseUrl = 'https://3pattiskygame.com.pk';
   
   // Define page type
   type PageType = {
@@ -25,52 +25,65 @@ export async function GET() {
       priority: 1.0,
       images: [
         {
-          loc: '/card-rummy.webp',
-          title: 'Card Rummy Logo',
-          caption: 'The official logo of Card Rummy gaming platform'
+          loc: '/3PattiSky.webp',
+          title: '3Patti Sky Logo',
+          caption: 'The official logo of 3Patti Sky gaming platform'
         },
         {
-          loc: '/card-rummy-logo.webp',
-          title: 'Card Rummy Hero Image',
-          caption: 'Card Rummy gaming platform showcase'
+          loc: '/3 Patti Sky.webp',
+          title: '3Patti Sky Hero Image',
+          caption: '3Patti Sky gaming platform showcase'
         }
       ]
     },
     {
-      url: '/download-card-rummy',
+      url: '/download-3patti-sky',
       lastMod: new Date().toISOString(),
       changeFreq: 'weekly',
       priority: 0.9,
       images: [
         {
-          loc: '/card-rummy.webp',
-          title: 'Download Card Rummy',
-          caption: 'Download Card Rummy APK for Android'
+          loc: '/3PattiSky.webp',
+          title: 'Download 3Patti Sky',
+          caption: 'Download 3Patti Sky APK for Android'
         }
       ]
     },
     {
-      url: '/deposit-money-in-card-rummy',
+      url: '/deposit-money-in-3patti-sky',
       lastMod: new Date().toISOString(),
       changeFreq: 'weekly',
       priority: 0.9
     },
     {
-      url: '/withdraw-money-from-card-rummy',
+      url: '/withdraw-money-from-3patti-sky',
       lastMod: new Date().toISOString(),
       changeFreq: 'weekly',
       priority: 0.9
     },
     {
-      url: '/card-rummy-for-pc',
+      url: '/3patti-sky-for-pc',
       lastMod: new Date().toISOString(),
       changeFreq: 'weekly',
       priority: 0.9,
       images: [
         {
-          loc: '/card-rummy.webp',
-          title: 'Card Rummy for PC',
-          caption: 'Play Card Rummy on PC using Android Emulator'
+          loc: '/3PattiSky.webp',
+          title: '3Patti Sky for PC',
+          caption: 'Play 3Patti Sky on PC using Android Emulator'
+        }
+      ]
+    },
+    {
+      url: '/3patti-sky-for-ios',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'weekly',
+      priority: 0.9,
+      images: [
+        {
+          loc: '/3PattiSky.webp',
+          title: '3Patti Sky for iOS',
+          caption: 'Download 3Patti Sky for iPhone and iPad'
         }
       ]
     },
@@ -81,9 +94,9 @@ export async function GET() {
       priority: 0.7,
       images: [
         {
-          loc: '/card-rummy.webp',
-          title: 'About Card Rummy',
-          caption: 'Learn about Card Rummy gaming platform'
+          loc: '/3PattiSky.webp',
+          title: 'About 3Patti Sky',
+          caption: 'Learn about 3Patti Sky gaming platform'
         }
       ]
     },
@@ -94,9 +107,9 @@ export async function GET() {
       priority: 0.8,
       images: [
         {
-          loc: '/card-rummy.webp',
-          title: 'Card Rummy Blog',
-          caption: 'Guides and tutorials for Card Rummy gaming platform'
+          loc: '/3PattiSky.webp',
+          title: '3Patti Sky Blog',
+          caption: 'Guides and tutorials for 3Patti Sky gaming platform'
         }
       ]
     },
@@ -123,22 +136,17 @@ export async function GET() {
   // Blog posts
   const blogPosts: PageType[] = [
     {
-      url: '/blog/is-card-rummy-real-or-fake',
+      url: '/blog/is-3patti-sky-real-or-fake',
       lastMod: new Date().toISOString(),
       changeFreq: 'monthly',
-      priority: 0.8
-    },
-    {
-      url: '/blog/create-card-rummy-account-and-login',
-      lastMod: new Date().toISOString(),
-      changeFreq: 'monthly',
-      priority: 0.8
-    },
-    {
-      url: '/blog/tips-to-win-big-in-card-rummy',
-      lastMod: new Date().toISOString(),
-      changeFreq: 'monthly',
-      priority: 0.8
+      priority: 0.8,
+      images: [
+        {
+          loc: '/3PattiSky.webp',
+          title: 'Is 3Patti Sky Real or Fake?',
+          caption: 'Learn about 3Patti Sky legitimacy and earning potential'
+        }
+      ]
     }
   ];
 

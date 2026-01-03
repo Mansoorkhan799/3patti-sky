@@ -11,14 +11,19 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* About Column */}
           <div>
-            <h3 className="text-xl font-bold text-accent mb-4">Card Rummy</h3>
+            <h3 className="text-xl font-bold text-accent mb-4">3Patti Sky</h3>
             <p className="text-sm text-gray-300 mb-4">
-              Card Rummy is Pakistan's premier card gaming platform, offering Teen Patti, Rummy, Dragon vs Tiger and many other exciting games. Earn real cash with JazzCash & EasyPaisa payments.
+              3Patti Sky is Pakistan's premier card gaming platform, offering Teen Patti, Rummy, Dragon vs Tiger and many other exciting games. Earn real cash with JazzCash & EasyPaisa payments.
             </p>
             <div className="flex space-x-4">
-              <a href="https://www.facebook.com/share/1at8tjJcje/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-                <svg className="w-5 h-5 text-gray-400 hover:text-accent transition-colors" fill="currentColor" viewBox="0 0 24 24">
+              <a href="https://www.facebook.com/people/3-Patti-Sky/61561881890600/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                <svg className="w-6 h-6 text-gray-400 hover:text-accent transition-colors" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M18.77,7.46H14.5v-1.9c0-0.9,0.6-1.1,1-1.1h3V0.13H14.5c-4.1,0-5,2.9-5,4.8v2.5H6v4.5h3.5V22h5V11.96h3.35L18.77,7.46z" />
+                </svg>
+              </a>
+              <a href="https://x.com/Teenpattisky" target="_blank" rel="noopener noreferrer" aria-label="Twitter / X">
+                <svg className="w-6 h-6 text-gray-400 hover:text-accent transition-colors" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
                 </svg>
               </a>
             </div>
@@ -34,13 +39,18 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/download-card-rummy" className="text-gray-300 hover:text-accent transition-colors">
+                <Link href="/download-3patti-sky" className="text-gray-300 hover:text-accent transition-colors">
                   Download
                 </Link>
               </li>
               <li>
-                <Link href="/card-rummy-for-pc" className="text-gray-300 hover:text-accent transition-colors">
+                <Link href="/3patti-sky-for-pc" className="text-gray-300 hover:text-accent transition-colors">
                   PC Version
+                </Link>
+              </li>
+              <li>
+                <Link href="/3patti-sky-for-ios" className="text-gray-300 hover:text-accent transition-colors">
+                  iOS Version
                 </Link>
               </li>
               <li>
@@ -66,23 +76,13 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4 text-accent">Resources</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/deposit-money-in-card-rummy" className="text-gray-300 hover:text-accent transition-colors">
+                <Link href="/deposit-money-in-3patti-sky" className="text-gray-300 hover:text-accent transition-colors">
                   Deposit Guide
                 </Link>
               </li>
               <li>
-                <Link href="/withdraw-money-from-card-rummy" className="text-gray-300 hover:text-accent transition-colors">
+                <Link href="/withdraw-money-from-3patti-sky" className="text-gray-300 hover:text-accent transition-colors">
                   Withdraw Guide
-                </Link>
-              </li>
-              <li>
-                <Link href="/blog/create-card-rummy-account-and-login" className="text-gray-300 hover:text-accent transition-colors">
-                  Account & Login
-                </Link>
-              </li>
-              <li>
-                <Link href="/blog/tips-to-win-big-in-card-rummy" className="text-gray-300 hover:text-accent transition-colors">
-                  Tips to Win Big
                 </Link>
               </li>
               <li>
@@ -102,10 +102,10 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4 text-accent">Download App</h3>
             <p className="text-sm text-gray-300 mb-4">
-              Download Card Rummy to enjoy the best card gaming experience and earn real cash rewards on your mobile device.
+              Download 3Patti Sky to enjoy the best card gaming experience and earn real cash rewards on your mobile device.
             </p>
             <a 
-              href="https://pkcardrummy.com/?from_gameid=5784509&channelCode=100000"
+              href="https://3pattiskypk1.com?from_gameid=5286189&channelCode=100000"
               target="_blank"
               rel="noopener noreferrer"
               className="download-btn bg-transparent hover:bg-[#0ea5e9]/10 text-white font-bold py-3 px-6 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-xl border-2 border-[#0ea5e9]"
@@ -121,7 +121,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-6 text-center text-sm text-gray-400">
-          <p>© 2026 Card Rummy. All rights reserved. | <Link href="/" className="hover:text-accent">cardrummyapp.com.pk</Link></p>
+          <p>© 2026 3Patti Sky. All rights reserved. | <Link href="/" className="hover:text-accent">3pattiskygame.com.pk</Link></p>
         </div>
       </div>
     </footer>

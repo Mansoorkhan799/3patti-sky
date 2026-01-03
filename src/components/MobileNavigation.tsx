@@ -62,15 +62,15 @@ export default function MobileNavigation() {
             <Link href="/" className="flex items-center gap-3" onClick={() => setIsOpen(false)}>
               <div className="relative w-8 h-8 flex-shrink-0">
                 <Image
-                  src="/card-rummy.webp"
-                  alt="Card Rummy Logo"
+                  src="/3PattiSky.webp"
+                  alt="3Patti Sky Logo"
                   fill
                   sizes="(max-width: 768px) 32px, 40px"
                   className="object-contain"
                   priority={true}
                 />
               </div>
-              <span className="text-accent text-xl font-bold">Card Rummy</span>
+              <span className="text-accent text-xl font-bold">3Patti Sky</span>
             </Link>
             <button 
               onClick={() => setIsOpen(false)}
@@ -99,32 +99,39 @@ export default function MobileNavigation() {
               Home
             </Link>
             <Link 
-              href="/download-card-rummy" 
+              href="/download-3patti-sky" 
               className="text-white hover:text-accent py-2 text-lg font-medium transition-colors"
               onClick={() => setIsOpen(false)}
             >
               Download
             </Link>
             <Link 
-              href="/deposit-money-in-card-rummy" 
+              href="/deposit-money-in-3patti-sky" 
               className="text-white hover:text-accent py-2 text-lg font-medium transition-colors"
               onClick={() => setIsOpen(false)}
             >
               Deposit Guide
             </Link>
             <Link 
-              href="/withdraw-money-from-card-rummy" 
+              href="/withdraw-money-from-3patti-sky" 
               className="text-white hover:text-accent py-2 text-lg font-medium transition-colors"
               onClick={() => setIsOpen(false)}
             >
               Withdraw Guide
             </Link>
             <Link 
-              href="/card-rummy-for-pc" 
+              href="/3patti-sky-for-pc" 
               className="text-white hover:text-accent py-2 text-lg font-medium transition-colors"
               onClick={() => setIsOpen(false)}
             >
               PC Version
+            </Link>
+            <Link 
+              href="/3patti-sky-for-ios" 
+              className="text-white hover:text-accent py-2 text-lg font-medium transition-colors"
+              onClick={() => setIsOpen(false)}
+            >
+              iOS Version
             </Link>
             <Link 
               href="/about-us" 

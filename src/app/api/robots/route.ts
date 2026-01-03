@@ -1,22 +1,21 @@
 import { NextResponse } from 'next/server';
 
 export async function GET() {
-  const baseUrl = 'https://cardrummyapp.com.pk';
+  const baseUrl = 'https://3pattiskygame.com.pk';
   
-  const robotsTxt = `# Card Rummy Robots.txt
+  const robotsTxt = `# 3Patti Sky Robots.txt
 User-agent: *
 Allow: /
 
 # Priority pages
-Allow: /download-card-rummy
-Allow: /deposit-money-in-card-rummy
-Allow: /withdraw-money-from-card-rummy
-Allow: /card-rummy-for-pc
+Allow: /download-3patti-sky
+Allow: /deposit-money-in-3patti-sky
+Allow: /withdraw-money-from-3patti-sky
+Allow: /3patti-sky-for-pc
+Allow: /3patti-sky-for-ios
 Allow: /about-us
 Allow: /blog
-Allow: /blog/is-card-rummy-real-or-fake
-Allow: /blog/create-card-rummy-account-and-login
-Allow: /blog/tips-to-win-big-in-card-rummy
+Allow: /blog/is-3patti-sky-real-or-fake
 
 # Standard pages
 Allow: /contact-us

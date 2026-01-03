@@ -2,27 +2,27 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'How to Deposit Money in Card Rummy? | Quick & Safe Payment Guide 2026',
-  description: 'Learn how to deposit money in Card Rummy using JazzCash and EasyPaisa. Follow our step-by-step guide for quick, safe, and secure deposits.',
-  keywords: 'deposit money card rummy, card rummy payment methods, jazzcash deposit, easypaisa deposit, add funds card rummy, card rummy recharge',
+  title: 'How to Withdraw Money from 3Patti Sky? | Fast & Secure Withdrawal Guide 2026',
+  description: 'Learn how to withdraw money from 3Patti Sky using JazzCash, EasyPaisa, and Bank Transfer. Follow our step-by-step guide for quick and secure withdrawals.',
+  keywords: 'withdraw money 3patti sky, 3patti sky withdrawal, jazzcash withdrawal, easypaisa withdrawal, cash out 3patti sky, 3patti sky payout',
   openGraph: {
-    title: 'How to Deposit Money in Card Rummy? | Quick & Safe Payment Guide',
-    description: 'Step-by-step guide to deposit money in Card Rummy using JazzCash and EasyPaisa. Quick, safe, and secure payment methods.',
-    url: 'https://cardrummyapp.com.pk/deposit-money-in-card-rummy',
-    siteName: 'Card Rummy',
+    title: 'How to Withdraw Money from 3Patti Sky? | Fast & Secure Withdrawal Guide',
+    description: 'Step-by-step guide to withdraw money from 3Patti Sky using JazzCash, EasyPaisa, and Bank Transfer. Quick and secure withdrawals.',
+    url: 'https://3pattiskygame.com.pk/withdraw-money-from-3patti-sky',
+    siteName: '3Patti Sky',
     type: 'article',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'How to Deposit Money in Card Rummy?',
-    description: 'Learn how to deposit money in Card Rummy using JazzCash and EasyPaisa with our complete guide.',
+    title: 'How to Withdraw Money from 3Patti Sky?',
+    description: 'Learn how to withdraw money from 3Patti Sky using our complete withdrawal guide.',
   },
   alternates: {
-    canonical: 'https://cardrummyapp.com.pk/deposit-money-in-card-rummy',
+    canonical: 'https://3pattiskygame.com.pk/withdraw-money-from-3patti-sky',
   },
 };
 
-export default function DepositMoneyPage() {
+export default function WithdrawMoneyPage() {
   return (
     <div className="min-h-screen bg-primary">
       {/* Hero Section */}
@@ -30,18 +30,18 @@ export default function DepositMoneyPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-3xl md:text-5xl font-bold text-white mb-6">
-              How to Deposit Money in Card Rummy?
+              How to Withdraw Money from 3Patti Sky?
             </h1>
             <p className="text-lg md:text-xl text-gray-300 mb-8">
-              Quick, Safe & Easy Payment Methods with JazzCash and EasyPaisa
+              Fast, Secure & Easy Cash Out with JazzCash, EasyPaisa & Bank Transfer
             </p>
             <Link
-              href="https://pkcardrummy.com/?from_gameid=5784509&channelCode=100000"
+              href="https://3pattiskypk1.com?from_gameid=5286189&channelCode=100000"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-accent text-primary px-8 py-4 rounded-full text-lg font-bold hover:bg-accent/90 transition-all duration-300 shadow-2xl hover:shadow-3xl transform hover:scale-105"
             >
-              Download & Deposit Now
+              Download & Start Earning
             </Link>
           </div>
         </div>
@@ -53,35 +53,35 @@ export default function DepositMoneyPage() {
           <div className="max-w-4xl mx-auto">
             <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12">
               <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                <Link href="/" className="text-accent hover:underline font-semibold">Card Rummy</Link> is an exciting online game where users can play many amazing games daily. You need to deposit money to enjoy it without any problems. Adding funds to the Card Rummy Game is very easy, as it offers quick and safe payment methods, including JazzCash and Easy Paisa.
+                <Link href="/" className="text-accent hover:underline font-semibold">3Patti Sky</Link> is a well-known online card game that offers many variants of Teen Patti and allows players to earn real money. Many players play it to earn extra income. Once you win money, the first step is to cash out your funds securely.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                Card Rummy offers a simple deposit method that all new players can use without any confusion. It takes only a few minutes, and your money will be added immediately. Once you've earned money through gameplay, you can easily <Link href="/withdraw-money-from-card-rummy" className="text-accent hover:underline font-semibold">withdraw money from Card Rummy</Link> using the same secure payment methods.
+                New players can feel confused when they try to withdraw cash from 3Patti Sky. But the withdrawal process is straightforward, so that everyone can do it without any confusion. You can send your earnings to your personal accounts, such as Easypaisa and Jazzcash. It is very necessary to follow all steps correctly and provide correct information to payout winnings without any issues.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Steps to Deposit Money */}
+      {/* Step-By-Step Guide */}
       <section className="py-12 md:py-16 bg-secondary">
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-white">
-              Steps to Deposit Money in Card Rummy
+              Step-By-Step Guide to Withdraw Money from 3Patti Sky
             </h2>
 
             <div className="space-y-8">
               {/* Step 1 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-accent text-primary rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     1
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-2xl font-bold text-white mb-3">Open Card Rummy App</h3>
+                    <h3 className="text-2xl font-bold text-white mb-3">Open 3Patti Sky App</h3>
                     <p className="text-gray-300 leading-relaxed">
-                      First, open the Card Rummy app on your Android device. Your internet connection must be stable to open the app. Log in to your account by entering your registered phone number and password. Enter your login details correctly to log in successfully.
+                      First, open the 3Patti Sky app on your phone and log in to your account using your registered mobile number and password. You must have a strong internet connection to avoid login issues.
                     </p>
                   </div>
                 </div>
@@ -90,13 +90,13 @@ export default function DepositMoneyPage() {
               {/* Step 2 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-accent text-primary rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     2
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-2xl font-bold text-white mb-3">Click on Shop Option</h3>
+                    <h3 className="text-2xl font-bold text-white mb-3">Click on Wallet Option</h3>
                     <p className="text-gray-300 leading-relaxed">
-                      After logging in, your dashboard will appear, where you can see many options and different games. Click on the shop button to start the depositing process.
+                      After logging in to your 3Patti Sky account, click on the wallet option. You will see your current balance and other options, such as the withdraw and deposit buttons.
                     </p>
                   </div>
                 </div>
@@ -105,13 +105,13 @@ export default function DepositMoneyPage() {
               {/* Step 3 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-accent text-primary rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     3
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-2xl font-bold text-white mb-3">Select Payment Method</h3>
+                    <h3 className="text-2xl font-bold text-white mb-3">Choose Withdraw Button</h3>
                     <p className="text-gray-300 leading-relaxed">
-                      After clicking the shop button, a deposit page opens, showing payment methods and options. Choose a payment method, like JazzCash or Easy Paisa, that you can use easily.
+                      After clicking on the wallet option, choose the withdraw button to start the withdrawal process. You will see different options, such as payment methods and payment amounts.
                     </p>
                   </div>
                 </div>
@@ -120,13 +120,13 @@ export default function DepositMoneyPage() {
               {/* Step 4 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-accent text-primary rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     4
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-2xl font-bold text-white mb-3">Choose Amount</h3>
+                    <h3 className="text-2xl font-bold text-white mb-3">Type Amount</h3>
                     <p className="text-gray-300 leading-relaxed">
-                      After selecting the payment method, choose the amount you can afford to lose. There are many options like Rs 200, Rs 500, Rs 1000, or Rs 2000.
+                      Type the amount that you want to cash out. It must be within withdrawal limits. Review your winnings before typing the withdrawal amount.
                     </p>
                   </div>
                 </div>
@@ -135,13 +135,13 @@ export default function DepositMoneyPage() {
               {/* Step 5 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-accent text-primary rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     5
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-2xl font-bold text-white mb-3">Click on Add Chips</h3>
+                    <h3 className="text-2xl font-bold text-white mb-3">Select Payment Method</h3>
                     <p className="text-gray-300 leading-relaxed">
-                      After entering the deposit details, click the Add Chips option. You will be redirected to the payment page, where you need to enter the account number that you want to use for payment. Click on the submit button to confirm the deposit.
+                      3Patti Sky provides many payment methods, including Easypaisa, Jazzcash, and Bank Transfer. Select the payment method that you want to use easily.
                     </p>
                   </div>
                 </div>
@@ -150,13 +150,13 @@ export default function DepositMoneyPage() {
               {/* Step 6 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-accent text-primary rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     6
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-2xl font-bold text-white mb-3">Approve Payment</h3>
+                    <h3 className="text-2xl font-bold text-white mb-3">Enter Payment Details</h3>
                     <p className="text-gray-300 leading-relaxed">
-                      After clicking on the submit button, you will receive a payment request on your selected account. Log in to your account and approve the payment request that you have received from 3Card Rummy.
+                      Now enter your account information, including account number and name. Enter the correct payment details to avoid problems in the withdrawal process.
                     </p>
                   </div>
                 </div>
@@ -165,13 +165,43 @@ export default function DepositMoneyPage() {
               {/* Step 7 */}
               <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#0A1029]0 text-white rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                  <div className="flex-shrink-0 w-12 h-12 bg-accent text-primary rounded-full flex items-center justify-center text-xl font-bold mr-6">
                     7
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-2xl font-bold text-white mb-3">Wait for Complete Payment</h3>
+                    <h3 className="text-2xl font-bold text-white mb-3">Confirm Payout</h3>
                     <p className="text-gray-300 leading-relaxed">
-                      After approving the payment request, a deposit will be added to your 3Patti Card Rummy account instantly. Sometimes it can take longer due to payment delays or network issues. When you receive payment, you can use it to play games without any hurdles.
+                      Re-check all withdrawal details carefully. If the information is correct, confirm your withdrawal by clicking on the withdraw button.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Step 8 */}
+              <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
+                <div className="flex items-start">
+                  <div className="flex-shrink-0 w-12 h-12 bg-accent text-primary rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                    8
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-2xl font-bold text-white mb-3">Wait for Processing</h3>
+                    <p className="text-gray-300 leading-relaxed">
+                      After confirming the withdrawal, 3Patti Sky will start processing your withdrawal request. It usually takes 24 hours or less. It may take longer due to network issues or payment delays.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Step 9 */}
+              <div className="bg-secondary rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow duration-300">
+                <div className="flex items-start">
+                  <div className="flex-shrink-0 w-12 h-12 bg-accent text-primary rounded-full flex items-center justify-center text-xl font-bold mr-6">
+                    9
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-2xl font-bold text-white mb-3">Check Your Account</h3>
+                    <p className="text-gray-300 leading-relaxed">
+                      After successfully withdrawing the withdrawal request, you will receive your payment in your personal account. Check your account, and if you have received money, you can use it however you like.
                     </p>
                   </div>
                 </div>
@@ -181,12 +211,12 @@ export default function DepositMoneyPage() {
         </div>
       </section>
 
-      {/* Tips for Secure Deposits */}
+      {/* Tips for Efficient Payout */}
       <section className="py-12 md:py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-white">
-              Tips for Secure Deposits
+              Tips for Efficient Payout
             </h2>
             <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12">
               <ul className="space-y-4">
@@ -194,31 +224,31 @@ export default function DepositMoneyPage() {
                   <svg className="w-6 h-6 text-accent mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-lg text-gray-300">Use your own mobile wallet to add funds.</span>
+                  <span className="text-lg text-gray-300">Use the same account information that you have used to create a 3Patti Sky account.</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-6 h-6 text-accent mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-lg text-gray-300">Use a strong internet connection during the deposit process.</span>
+                  <span className="text-lg text-gray-300">Do not cash out tiny amounts to save time.</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-6 h-6 text-accent mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-lg text-gray-300">Do not share your mobile wallet pin or login password with anyone.</span>
+                  <span className="text-lg text-gray-300">Update your 3Patti Sky app for smooth payouts.</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-6 h-6 text-accent mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-lg text-gray-300">Add a small amount if you are a beginner in Card Rummy.</span>
+                  <span className="text-lg text-gray-300">Your account must be verified to avoid problems.</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-6 h-6 text-accent mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-lg text-gray-300">Play games wisely and manage your funds.</span>
+                  <span className="text-lg text-gray-300">Contact the customer support team if you do not receive payment within a given time.</span>
                 </li>
               </ul>
             </div>
@@ -233,10 +263,10 @@ export default function DepositMoneyPage() {
             <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">Conclusion</h2>
               <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                Adding funds to Card Rummy is a fast and easy method if you follow all the steps correctly. You are required to open the app, tap the shop button, enter the correct payment details, and approve payment requests to deposit money into your Card Rummy account.
+                Cashing out funds from 3Patti Sky is very easy if you know the proper steps. Re-check your account information and select a real payment method. You can enjoy your earnings without any trouble if you follow the whole process correctly.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                You must use secure and real payment methods to deposit money safely and enjoy games instantly. New users can easily add funds to their accounts and play games by following the proper steps.
+                Follow all rules and withdrawal limits to avoid problems. It provides safe, quick withdrawals to all its users. You can securely collect your winnings and enjoy your favorite games in 3Patti Sky by following these simple steps.
               </p>
             </div>
           </div>
@@ -253,28 +283,28 @@ export default function DepositMoneyPage() {
             <div className="space-y-6">
               <div className="bg-secondary rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow duration-300">
                 <h3 className="text-xl font-bold text-accent mb-3">
-                  How can we add money to our Card Rummy account?
+                  What is the minimum amount that we can withdraw from the 3Patti Sky Game?
                 </h3>
                 <p className="text-gray-300 leading-relaxed">
-                  You can add money to your Card Rummy account by opening the app, selecting the shop option, choosing a payment method and amount, confirming the deposit, and approving the payment request.
+                  You can easily withdraw a minimum of Rs 100 from your 3Patti Sky account, as it supports withdrawals of that amount.
                 </p>
               </div>
 
               <div className="bg-secondary rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow duration-300">
                 <h3 className="text-xl font-bold text-accent mb-3">
-                  Is adding funds to Card Rummy secure?
+                  How long does 3Patti Sky take to send withdrawals?
                 </h3>
                 <p className="text-gray-300 leading-relaxed">
-                  Yes, it is safe to add funds to Card Rummy, as it uses a modern security system to protect your personal data and funds.
+                  3Patti Sky usually processes withdrawals in 3 to 24 hours. It may take longer due to some issues.
                 </p>
               </div>
 
               <div className="bg-secondary rounded-xl shadow-lg p-6 hover:shadow-2xl transition-shadow duration-300">
                 <h3 className="text-xl font-bold text-accent mb-3">
-                  Which payment methods are available on Card Rummy?
+                  What should we do if our payout fails on 3Patti Sky?
                 </h3>
                 <p className="text-gray-300 leading-relaxed">
-                  Card Rummy provides two payment methods, including Easypaisa and Jazzcash, that are secure and authentic.
+                  If your withdrawal fails on 3Patti Sky, contact its customer support team to approve your withdrawal.
                 </p>
               </div>
             </div>
@@ -287,18 +317,18 @@ export default function DepositMoneyPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-              Ready to Start Playing?
+              Ready to Withdraw Your Winnings?
             </h2>
             <p className="text-lg text-gray-300 mb-8">
-              Download Card Rummy now and deposit money to start earning real cash!
+              Download 3Patti Sky now and start withdrawing your earnings securely!
             </p>
             <Link
-              href="https://pkcardrummy.com/?from_gameid=5784509&channelCode=100000"
+              href="https://3pattiskypk1.com?from_gameid=5286189&channelCode=100000"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-accent text-primary px-8 py-4 rounded-full text-lg font-bold hover:bg-accent/90 transition-all duration-300 shadow-2xl hover:shadow-3xl transform hover:scale-105"
             >
-              Download Card Rummy Now
+              Download 3Patti Sky Now
             </Link>
           </div>
         </div>
@@ -311,43 +341,53 @@ export default function DepositMoneyPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "HowTo",
-            "name": "How to Deposit Money in Card Rummy",
-            "description": "Step-by-step guide to deposit money in Card Rummy using JazzCash and EasyPaisa",
+            "name": "How to Withdraw Money from 3Patti Sky",
+            "description": "Step-by-step guide to withdraw money from 3Patti Sky using JazzCash, EasyPaisa, and Bank Transfer",
             "step": [
               {
                 "@type": "HowToStep",
-                "name": "Open Card Rummy App",
-                "text": "Open the Card Rummy app on your Android device and log in to your account."
+                "name": "Open 3Patti Sky App",
+                "text": "Open the 3Patti Sky app on your phone and log in to your account."
               },
               {
                 "@type": "HowToStep",
-                "name": "Click on Shop Option",
-                "text": "After logging in, click on the shop button to start the depositing process."
+                "name": "Click on Wallet Option",
+                "text": "Click on the wallet option to see your balance and withdrawal options."
+              },
+              {
+                "@type": "HowToStep",
+                "name": "Choose Withdraw Button",
+                "text": "Choose the withdraw button to start the withdrawal process."
+              },
+              {
+                "@type": "HowToStep",
+                "name": "Type Amount",
+                "text": "Type the amount you want to cash out within withdrawal limits."
               },
               {
                 "@type": "HowToStep",
                 "name": "Select Payment Method",
-                "text": "Choose a payment method like JazzCash or EasyPaisa."
+                "text": "Select your payment method: Easypaisa, Jazzcash, or Bank Transfer."
               },
               {
                 "@type": "HowToStep",
-                "name": "Choose Amount",
-                "text": "Select the amount you want to deposit (Rs 200, Rs 500, Rs 1000, or Rs 2000)."
+                "name": "Enter Payment Details",
+                "text": "Enter your account information including account number and name."
               },
               {
                 "@type": "HowToStep",
-                "name": "Click on Add Chips",
-                "text": "Click the Add Chips option and enter your account number."
+                "name": "Confirm Payout",
+                "text": "Re-check all details and confirm your withdrawal."
               },
               {
                 "@type": "HowToStep",
-                "name": "Approve Payment",
-                "text": "Log in to your mobile wallet and approve the payment request."
+                "name": "Wait for Processing",
+                "text": "Wait for 3Patti Sky to process your withdrawal (usually within 24 hours)."
               },
               {
                 "@type": "HowToStep",
-                "name": "Wait for Complete Payment",
-                "text": "Wait for the deposit to be added to your Card Rummy account."
+                "name": "Check Your Account",
+                "text": "Check your personal account to confirm you've received the payment."
               }
             ]
           })

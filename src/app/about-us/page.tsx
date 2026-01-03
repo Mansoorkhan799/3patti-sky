@@ -4,9 +4,9 @@ import Link from 'next/link';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: 'About Card Rummy - Pakistan\'s Premier Card Gaming Platform',
-  description: 'Learn about Card Rummy, our history, mission, and vision for creating the best card gaming platform in Pakistan with Teen Patti, Rummy and more.',
-  keywords: ['Card Rummy about', 'about us', 'gaming company Pakistan', 'Card Rummy history', 'card gaming platform', 'Teen Patti', '3 Patti'],
+  title: 'About 3Patti Sky - Pakistan\'s Premier Card Gaming Platform',
+  description: 'Learn about 3Patti Sky, our history, mission, and vision for creating the best card gaming platform in Pakistan with Teen Patti, Rummy and more.',
+  keywords: ['3Patti Sky about', 'about us', 'gaming company Pakistan', '3Patti Sky history', 'card gaming platform', 'Teen Patti', '3 Patti'],
   robots: {
     index: true,
     follow: true,
@@ -18,29 +18,29 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://cardrummyapp.com.pk/about-us",
+    canonical: "https://3pattiskygame.com.pk/about-us",
   },
   openGraph: {
-    title: 'About Card Rummy - Pakistan\'s Premier Card Gaming Platform',
-    description: 'Learn about Card Rummy, our history, mission, and vision for creating the best card gaming platform in Pakistan with real cash rewards.',
-    url: "https://cardrummyapp.com.pk/about-us",
-    siteName: "Card Rummy",
+    title: 'About 3Patti Sky - Pakistan\'s Premier Card Gaming Platform',
+    description: 'Learn about 3Patti Sky, our history, mission, and vision for creating the best card gaming platform in Pakistan with real cash rewards.',
+    url: "https://3pattiskygame.com.pk/about-us",
+    siteName: "3Patti Sky",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://cardrummyapp.com.pk/card-rummy-logo.webp",
+        url: "https://3pattiskygame.com.pk/3PattiSky.webp",
         width: 1200,
         height: 630,
-        alt: "About Card Rummy - Premier Card Gaming Platform",
+        alt: "About 3Patti Sky - Premier Card Gaming Platform",
       }
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: 'About Card Rummy - Pakistan\'s Premier Card Gaming Platform',
-    description: 'Learn about Card Rummy, our history, mission, and vision for creating the best card gaming platform in Pakistan with real cash rewards.',
-    images: ["https://cardrummyapp.com.pk/card-rummy-logo.webp"],
+    title: 'About 3Patti Sky - Pakistan\'s Premier Card Gaming Platform',
+    description: 'Learn about 3Patti Sky, our history, mission, and vision for creating the best card gaming platform in Pakistan with real cash rewards.',
+    images: ["https://3pattiskygame.com.pk/3PattiSky.webp"],
   },
 };
 
@@ -61,8 +61,8 @@ export default function AboutPage() {
                 <div className="relative w-full aspect-square rounded-lg overflow-hidden bg-[#0A1029]">
                   <Link href="/">
                     <Image 
-                      src="/card-rummy.webp" 
-                      alt="Card Rummy Logo" 
+                      src="/3PattiSky.webp" 
+                      alt="3Patti Sky Logo" 
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 320px"
                       className="object-contain p-4"
@@ -74,7 +74,7 @@ export default function AboutPage() {
               <div className="md:w-2/3">
                 <div className="prose prose-lg max-w-none">
                   <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                    Welcome to <a href="https://www.cardrummyapp.com.pk/" className="text-accent hover:text-accent font-semibold" target="_blank" rel="noopener noreferrer">www.cardrummyapp.com.pk</a>, a trusted platform to provide the latest information about 3patti <Link href="/" className="text-accent hover:underline font-semibold">Card Rummy</Link>. This is one of the most popular online casino games in Pakistan, having <span className="font-bold text-accent">500K+ users</span>.
+                    Welcome to <a href="https://www.3pattiskygame.com.pk/" className="text-accent hover:text-accent font-semibold" target="_blank" rel="noopener noreferrer">www.3pattiskygame.com.pk</a>, a trusted platform to provide the latest information about 3patti <Link href="/" className="text-accent hover:underline font-semibold">3Patti Sky</Link>. This is one of the most popular online casino games in Pakistan, having <span className="font-bold text-accent">500K+ users</span>.
                   </p>
                   <p className="text-lg text-gray-300 leading-relaxed">
                     Hundreds of people are playing these wonderful games and earning a handsome amount on a daily or weekly basis.
@@ -88,7 +88,7 @@ export default function AboutPage() {
           <div className="bg-gradient-to-r from-orange-600 to-orange-500 rounded-2xl shadow-xl p-8 md:p-12 mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white text-center">Our Aim!</h2>
             <p className="text-lg md:text-xl text-white leading-relaxed text-center">
-              Our aim is to provide the users with the latest and updated information and earning tips about Card Rummy. For any type of information or query, you can visit our <Link href="/contact-us" className="underline hover:text-orange-100 font-semibold">contact us page</Link>.
+              Our aim is to provide the users with the latest and updated information and earning tips about 3Patti Sky. For any type of information or query, you can visit our <Link href="/contact-us" className="underline hover:text-orange-100 font-semibold">contact us page</Link>.
             </p>
           </div>
           
@@ -96,7 +96,7 @@ export default function AboutPage() {
           <div className="bg-secondary rounded-2xl shadow-xl p-8 text-center">
             <h2 className="text-2xl font-bold mb-4 text-white">Have Questions?</h2>
             <p className="text-gray-300 mb-6 text-lg">
-              We're here to help! Contact our team for any information or queries about Card Rummy.
+              We're here to help! Contact our team for any information or queries about 3Patti Sky.
             </p>
             <Link 
               href="/contact-us" 
@@ -117,23 +117,23 @@ export default function AboutPage() {
             "@type": "AboutPage",
             "mainEntity": {
               "@type": "Organization",
-              "name": "Card Rummy",
-              "alternateName": "3 Patti Card Rummy",
-              "url": "https://cardrummyapp.com.pk",
-              "logo": "https://cardrummyapp.com.pk/card-rummy-logo.webp",
-              "description": "Card Rummy is Pakistan's premier card gaming platform, offering Teen Patti, Rummy, Dragon vs Tiger and more with real cash rewards.",
+              "name": "3Patti Sky",
+              "alternateName": "3 Patti 3Patti Sky",
+              "url": "https://3pattiskygame.com.pk",
+              "logo": "https://3pattiskygame.com.pk/3PattiSky.webp",
+              "description": "3Patti Sky is Pakistan's premier card gaming platform, offering Teen Patti, Rummy, Dragon vs Tiger and more with real cash rewards.",
               "foundingDate": "2024",
               "foundingLocation": {
                 "@type": "Country",
                 "name": "Pakistan"
               },
               "sameAs": [
-                "https://facebook.com/cardrummy",
-                "https://twitter.com/cardrummy"
+                "https://www.facebook.com/people/3-Patti-Sky/61561881890600/",
+                "https://x.com/Teenpattisky"
               ],
               "founder": {
                 "@type": "Person",
-                "name": "Erio Card Rummy Dev"
+                "name": "Erio 3Patti Sky Dev"
               }
             },
             "about": {
@@ -143,7 +143,7 @@ export default function AboutPage() {
             },
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://cardrummyapp.com.pk/about"
+              "@id": "https://3pattiskygame.com.pk/about"
             }
           })
         }}

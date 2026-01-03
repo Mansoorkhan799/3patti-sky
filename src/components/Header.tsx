@@ -12,8 +12,8 @@ export default function Header() {
         <Link href="/" className="flex items-center">
           <div className="relative h-10 w-10 mr-2">
             <Image
-              src="/card-rummy.webp"
-              alt="Card Rummy Logo"
+              src="/3PattiSky.webp"
+              alt="3Patti Sky Logo"
               width={40}
               height={40}
               className="object-contain"
@@ -22,7 +22,7 @@ export default function Header() {
             />
           </div>
           <span className="text-accent text-xl md:text-2xl font-bold">
-            Card Rummy
+            3Patti Sky
           </span>
         </Link>
 
@@ -31,17 +31,20 @@ export default function Header() {
           <Link href="/" className="text-white hover:text-accent font-medium transition-colors">
             Home
           </Link>
-          <Link href="/download-card-rummy" className="text-white hover:text-accent font-medium transition-colors">
+          <Link href="/download-3patti-sky" className="text-white hover:text-accent font-medium transition-colors">
             Download
           </Link>
-          <Link href="/deposit-money-in-card-rummy" className="text-white hover:text-accent font-medium transition-colors">
+          <Link href="/deposit-money-in-3patti-sky" className="text-white hover:text-accent font-medium transition-colors">
             Deposit
           </Link>
-          <Link href="/withdraw-money-from-card-rummy" className="text-white hover:text-accent font-medium transition-colors">
+          <Link href="/withdraw-money-from-3patti-sky" className="text-white hover:text-accent font-medium transition-colors">
             Withdraw
           </Link>
-          <Link href="/card-rummy-for-pc" className="text-white hover:text-accent font-medium transition-colors">
+          <Link href="/3patti-sky-for-pc" className="text-white hover:text-accent font-medium transition-colors">
             PC Version
+          </Link>
+          <Link href="/3patti-sky-for-ios" className="text-white hover:text-accent font-medium transition-colors">
+            iOS Version
           </Link>
           <Link href="/about-us" className="text-white hover:text-accent font-medium transition-colors">
             About Us
