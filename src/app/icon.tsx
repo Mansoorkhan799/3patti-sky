@@ -13,8 +13,7 @@ export default function Icon() {
     (
       <div
         style={{
-          fontSize: 20,
-          background: '#FFA500',
+          background: 'linear-gradient(135deg, #FFA500 0%, #FF8C00 100%)',
           width: '100%',
           height: '100%',
           display: 'flex',
@@ -22,10 +21,24 @@ export default function Icon() {
           justifyContent: 'center',
           color: 'white',
           fontWeight: 'bold',
-          borderRadius: '20%',
+          borderRadius: '25%',
+          boxShadow: '0 4px 8px rgba(0,0,0,0.3)',
         }}
       >
-        3PS
+        <div
+          style={{
+            fontSize: 18,
+            fontFamily: 'system-ui, -apple-system, sans-serif',
+            letterSpacing: '-1px',
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            lineHeight: '0.9',
+          }}
+        >
+          <span style={{ fontSize: 16 }}>3P</span>
+          <span style={{ fontSize: 14 }}>S</span>
+        </div>
       </div>
     ),
     {

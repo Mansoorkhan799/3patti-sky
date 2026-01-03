@@ -13,8 +13,7 @@ export default function AppleIcon() {
     (
       <div
         style={{
-          fontSize: 90,
-          background: '#FFA500',
+          background: 'linear-gradient(135deg, #FFA500 0%, #FF8C00 100%)',
           width: '100%',
           height: '100%',
           display: 'flex',
@@ -22,10 +21,38 @@ export default function AppleIcon() {
           justifyContent: 'center',
           color: 'white',
           fontWeight: 'bold',
-          borderRadius: '20%',
+          borderRadius: '22%',
+          boxShadow: '0 8px 24px rgba(0,0,0,0.3)',
         }}
       >
-        3PS
+        <div
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            fontFamily: 'system-ui, -apple-system, sans-serif',
+          }}
+        >
+          <div
+            style={{
+              fontSize: 72,
+              fontWeight: 900,
+              letterSpacing: '-2px',
+              marginBottom: '-8px',
+            }}
+          >
+            3P
+          </div>
+          <div
+            style={{
+              fontSize: 48,
+              fontWeight: 900,
+              marginTop: '-12px',
+            }}
+          >
+            Sky
+          </div>
+        </div>
       </div>
     ),
     {
