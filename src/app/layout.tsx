@@ -56,12 +56,13 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: '/favicon.ico', type: 'image/x-icon' },
-      { url: '/3PattiSky.webp', type: 'image/webp' }
+      { url: '/3PattiSky.webp', type: 'image/webp', sizes: 'any' },
+      { url: '/favicon.ico', type: 'image/x-icon' }
     ],
     apple: [
-      { url: '/3patti-sky.webp' }
-    ]
+      { url: '/3PattiSky.webp', sizes: '180x180' }
+    ],
+    shortcut: '/3PattiSky.webp'
   },
   manifest: '/manifest.json',
   verification: {
@@ -122,10 +123,10 @@ export default function RootLayout({
         <link rel="manifest" href="/manifest.json" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="icon" href="/3PattiSky.webp" type="image/webp" sizes="any" />
-        <link rel="apple-touch-icon" href="/3PattiSky.webp" />
+        <link rel="shortcut icon" href="/3PattiSky.webp" type="image/webp" />
+        <link rel="apple-touch-icon" href="/3PattiSky.webp" sizes="180x180" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16 32x32" />
         <meta property="og:image" content="/3PattiSky.webp" />
         
         {/* Google Analytics */}
