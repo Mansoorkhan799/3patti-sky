@@ -13,7 +13,7 @@ export default function Icon() {
     (
       <div
         style={{
-          fontSize: 24,
+          fontSize: 20,
           background: '#FFA500',
           width: '100%',
           height: '100%',
@@ -25,7 +25,7 @@ export default function Icon() {
           borderRadius: '20%',
         }}
       >
-        CR
+        3PS
       </div>
     ),
     {

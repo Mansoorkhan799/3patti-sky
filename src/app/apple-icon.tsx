@@ -13,7 +13,7 @@ export default function AppleIcon() {
     (
       <div
         style={{
-          fontSize: 100,
+          fontSize: 90,
           background: '#FFA500',
           width: '100%',
           height: '100%',
@@ -25,7 +25,7 @@ export default function AppleIcon() {
           borderRadius: '20%',
         }}
       >
-        CR
+        3PS
       </div>
     ),
     {
