@@ -56,13 +56,12 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: '/icon', sizes: '32x32' },
-      { url: '/3PattiSky.webp', type: 'image/webp', sizes: 'any' }
+      { url: '/3 Patti Sky logo.webp', type: 'image/webp', sizes: 'any' },
     ],
     apple: [
-      { url: '/apple-icon', sizes: '180x180' }
+      { url: '/3 Patti Sky logo.webp', sizes: '180x180', type: 'image/webp' }
     ],
-    shortcut: '/icon'
+    shortcut: '/3 Patti Sky logo.webp'
   },
   manifest: '/manifest.json',
   verification: {

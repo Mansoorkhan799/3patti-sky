@@ -448,30 +448,30 @@ export default function Home() {
             {/* Recharge Rebate */}
             <div className="w-full">
               <div className="rounded-lg overflow-hidden shadow-2xl">
-                <Image
+              <Image
                   src="/3 Patti Sky Referral Bonus.webp"
                   alt="3Patti Sky Recharge Rebate"
                   width={400}
                   height={711}
                   className="w-full h-auto"
-                  loading="lazy"
+                loading="lazy"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                />
+              />
               </div>
             </div>
 
             {/* Bind Email */}
             <div className="w-full">
               <div className="rounded-lg overflow-hidden shadow-2xl">
-                <Image
+              <Image
                   src="/3 Patti Sky Game.webp"
                   alt="3Patti Sky Bind Email"
                   width={400}
                   height={711}
                   className="w-full h-auto"
-                  loading="lazy"
+                loading="lazy"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                />
+              />
               </div>
             </div>
           </div>

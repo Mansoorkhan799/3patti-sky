@@ -8,21 +8,16 @@
   "theme_color": "#06091F",
   "icons": [
     {
-      "src": "/3PattiSky.webp",
+      "src": "/3 Patti Sky logo.webp",
       "sizes": "192x192 512x512",
       "type": "image/webp",
       "purpose": "any maskable"
     },
     {
-      "src": "/3 Patti Sky.webp",
+      "src": "/3 Patti Sky logo.webp",
       "sizes": "512x512",
       "type": "image/webp",
       "purpose": "any"
-    },
-    {
-      "src": "/favicon.ico",
-      "sizes": "16x16 32x32 48x48",
-      "type": "image/x-icon"
     }
   ]
-}
+} 
