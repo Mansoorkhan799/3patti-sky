@@ -56,12 +56,14 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: '/3 Patti Sky logo.webp', type: 'image/webp', sizes: 'any' },
+      { url: '/3PattiSky.ico', type: 'image/x-icon', sizes: '16x16 32x32 48x48' },
+      { url: '/3PattiSky.webp', type: 'image/webp', sizes: '192x192' },
     ],
     apple: [
-      { url: '/3 Patti Sky logo.webp', sizes: '180x180', type: 'image/webp' }
+      { url: '/3 Patti Sky logo.webp', sizes: '180x180', type: 'image/webp' },
+      { url: '/3PattiSky.webp', sizes: '192x192', type: 'image/webp' }
     ],
-    shortcut: '/3 Patti Sky logo.webp'
+    shortcut: '/3PattiSky.ico'
   },
   manifest: '/manifest.json',
   verification: {
@@ -127,10 +129,14 @@ export default function RootLayout({
         <link rel="manifest" href="/manifest.json" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-        <link rel="icon" href="/3PattiSky.webp" type="image/webp" sizes="any" />
-        <link rel="shortcut icon" href="/3PattiSky.webp" type="image/webp" />
-        <link rel="apple-touch-icon" href="/3PattiSky.webp" sizes="180x180" />
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16 32x32" />
+        
+        {/* Favicon - Multiple formats for best browser support */}
+        <link rel="icon" href="/3PattiSky.ico" type="image/x-icon" sizes="16x16 32x32 48x48" />
+        <link rel="shortcut icon" href="/3PattiSky.ico" type="image/x-icon" />
+        <link rel="icon" href="/3PattiSky.webp" type="image/webp" sizes="192x192" />
+        <link rel="apple-touch-icon" href="/3 Patti Sky logo.webp" sizes="180x180" />
+        <link rel="apple-touch-icon" href="/3PattiSky.webp" sizes="192x192" />
+        
         <meta property="og:image" content="/3PattiSky.webp" />
         
         {/* Google Analytics */}
