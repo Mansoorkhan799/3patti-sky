@@ -120,7 +120,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         {/* Preload critical assets for better performance */}
-        <link rel="preload" href="/3PattiSky.webp" as="image" type="image/webp" fetchpriority="high" />
+        <link rel="preload" href="/3PattiSky.webp" as="image" type="image/webp" fetchPriority="high" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
         
