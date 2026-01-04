@@ -158,30 +158,30 @@ export default function Home() {
               </a>
             </div>
 
-            {/* Stats Grid with improved spacing */}
-            <div className="flex flex-row gap-4 justify-center mt-8 mb-4" style={{ minHeight: '120px' }}>
-              <div className="bg-[#0A1029] p-6 rounded-2xl text-center flex-1 max-w-[180px]" style={{ minHeight: '120px' }}>
-                <svg className="w-6 h-6 mb-3 text-[#FFA500] mx-auto" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+            {/* Stats Grid with improved spacing - CLS optimized */}
+            <div className="flex flex-row gap-4 justify-center mt-8 mb-4 min-h-[120px]">
+              <div className="bg-[#0A1029] p-6 rounded-2xl text-center flex-1 max-w-[180px] min-h-[120px] flex flex-col justify-center">
+                <svg className="w-6 h-6 mb-3 text-[#FFA500] mx-auto flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
                   <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
                 </svg>
-                <div className="text-white text-2xl font-bold mb-1">600K+</div>
-                <div className="text-gray-400 text-sm">Downloads</div>
+                <div className="text-white text-2xl font-bold mb-1 leading-tight">600K+</div>
+                <div className="text-gray-400 text-sm leading-tight">Downloads</div>
               </div>
               
-              <div className="bg-[#0A1029] p-6 rounded-2xl text-center flex-1 max-w-[180px]" style={{ minHeight: '120px' }}>
-                <svg className="w-6 h-6 mb-3 text-[#FFA500] mx-auto" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+              <div className="bg-[#0A1029] p-6 rounded-2xl text-center flex-1 max-w-[180px] min-h-[120px] flex flex-col justify-center">
+                <svg className="w-6 h-6 mb-3 text-[#FFA500] mx-auto flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
                   <path d="M21 2H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h7v2H8v2h8v-2h-2v-2h7c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H3V4h18v12z"/>
                 </svg>
-                <div className="text-white text-2xl font-bold mb-1">300K+</div>
-                <div className="text-gray-400 text-sm">Ratings</div>
+                <div className="text-white text-2xl font-bold mb-1 leading-tight">300K+</div>
+                <div className="text-gray-400 text-sm leading-tight">Ratings</div>
               </div>
               
-              <div className="bg-[#0A1029] p-6 rounded-2xl text-center flex-1 max-w-[180px]" style={{ minHeight: '120px' }}>
-                <svg className="w-6 h-6 mb-3 text-[#FFA500] mx-auto" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+              <div className="bg-[#0A1029] p-6 rounded-2xl text-center flex-1 max-w-[180px] min-h-[120px] flex flex-col justify-center">
+                <svg className="w-6 h-6 mb-3 text-[#FFA500] mx-auto flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
                   <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
                 </svg>
-                <div className="text-white text-2xl font-bold mb-1">49MB</div>
-                <div className="text-gray-400 text-sm">App Size</div>
+                <div className="text-white text-2xl font-bold mb-1 leading-tight">49MB</div>
+                <div className="text-gray-400 text-sm leading-tight">App Size</div>
               </div>
             </div>
 
@@ -191,36 +191,34 @@ export default function Home() {
 
           {/* Desktop Image */}
           <div className="hidden md:block md:w-1/2 md:mt-8">
-            <div className="relative ml-auto" style={{ width: '320px', height: '320px', maxWidth: '100%' }}>
+            <div className="relative ml-auto w-[320px] h-[320px] max-w-full">
               <Image
                 src="/3PattiSky.webp"
                 alt="3Patti Sky Logo"
                 width={320}
                 height={320}
-                className="object-contain drop-shadow-2xl"
+                className="object-contain drop-shadow-2xl w-full h-full"
                 priority={true}
                 fetchPriority="high"
                 quality={90}
                 sizes="320px"
-                style={{ width: '100%', height: '100%' }}
               />
             </div>
           </div>
 
           {/* Mobile Image */}
           <div className="mt-8 md:hidden">
-            <div className="relative mx-auto" style={{ width: '280px', height: '280px', maxWidth: '100%' }}>
+            <div className="relative mx-auto w-[280px] h-[280px] max-w-full">
               <Image
                 src="/3PattiSky.webp"
                 alt="3Patti Sky Logo"
                 width={280}
                 height={280}
-                className="object-contain drop-shadow-2xl"
+                className="object-contain drop-shadow-2xl w-full h-full"
                 priority={true}
                 fetchPriority="high"
                 quality={90}
                 sizes="280px"
-                style={{ width: '100%', height: '100%' }}
               />
             </div>
           </div>
@@ -354,13 +352,13 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
             {/* Main Game Interface */}
             <div className="w-full">
-              <div className="rounded-lg overflow-hidden shadow-2xl">
+              <div className="rounded-lg overflow-hidden shadow-2xl" style={{ aspectRatio: '400/711' }}>
                 <Image
                   src="/3 Patti Sky Game.webp"
                   alt="3Patti Sky Game Interface"
                   width={400}
                   height={711}
-                  className="w-full h-auto"
+                  className="w-full h-full object-cover"
                   loading="lazy"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
@@ -369,13 +367,13 @@ export default function Home() {
 
             {/* Games Collection */}
             <div className="w-full">
-              <div className="rounded-lg overflow-hidden shadow-2xl">
+              <div className="rounded-lg overflow-hidden shadow-2xl" style={{ aspectRatio: '400/711' }}>
                 <Image
                   src="/3 Patti Sky Dragon Tiger.webp"
                   alt="3Patti Sky Games Collection"
                   width={400}
                   height={711}
-                  className="w-full h-auto"
+                  className="w-full h-full object-cover"
                   loading="lazy"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
@@ -384,13 +382,13 @@ export default function Home() {
 
             {/* Bonuses */}
             <div className="w-full">
-              <div className="rounded-lg overflow-hidden shadow-2xl">
+              <div className="rounded-lg overflow-hidden shadow-2xl" style={{ aspectRatio: '400/711' }}>
                 <Image
                   src="/3 Patti Sky Free Bonus.webp"
                   alt="3Patti Sky Bonuses & Rewards"
                   width={400}
                   height={711}
-                  className="w-full h-auto"
+                  className="w-full h-full object-cover"
                   loading="lazy"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
@@ -399,13 +397,13 @@ export default function Home() {
 
             {/* Add Money */}
             <div className="w-full">
-              <div className="rounded-lg overflow-hidden shadow-2xl">
+              <div className="rounded-lg overflow-hidden shadow-2xl" style={{ aspectRatio: '400/711' }}>
                 <Image
                   src="/3 Patti Sky Deposit.webp"
                   alt="3Patti Sky Deposit Money"
                   width={400}
                   height={711}
-                  className="w-full h-auto"
+                  className="w-full h-full object-cover"
                   loading="lazy"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
@@ -414,13 +412,13 @@ export default function Home() {
 
             {/* Withdraw Money */}
             <div className="w-full">
-              <div className="rounded-lg overflow-hidden shadow-2xl">
+              <div className="rounded-lg overflow-hidden shadow-2xl" style={{ aspectRatio: '400/711' }}>
                 <Image
                   src="/3 Patti Sky Deposit.webp"
                   alt="3Patti Sky Withdraw Money"
                   width={400}
                   height={711}
-                  className="w-full h-auto"
+                  className="w-full h-full object-cover"
                   loading="lazy"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
@@ -429,13 +427,13 @@ export default function Home() {
 
             {/* VIP Program */}
             <div className="w-full">
-              <div className="rounded-lg overflow-hidden shadow-2xl">
+              <div className="rounded-lg overflow-hidden shadow-2xl" style={{ aspectRatio: '400/711' }}>
                 <Image
                   src="/3 Patti Sky Game.webp"
                   alt="3Patti Sky VIP Program"
                   width={400}
                   height={711}
-                  className="w-full h-auto"
+                  className="w-full h-full object-cover"
                   loading="lazy"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
@@ -447,31 +445,31 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Recharge Rebate */}
             <div className="w-full">
-              <div className="rounded-lg overflow-hidden shadow-2xl">
-              <Image
+              <div className="rounded-lg overflow-hidden shadow-2xl" style={{ aspectRatio: '400/711' }}>
+                <Image
                   src="/3 Patti Sky Referral Bonus.webp"
                   alt="3Patti Sky Recharge Rebate"
                   width={400}
                   height={711}
-                  className="w-full h-auto"
-                loading="lazy"
+                  className="w-full h-full object-cover"
+                  loading="lazy"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-              />
+                />
               </div>
             </div>
 
             {/* Bind Email */}
             <div className="w-full">
-              <div className="rounded-lg overflow-hidden shadow-2xl">
-              <Image
+              <div className="rounded-lg overflow-hidden shadow-2xl" style={{ aspectRatio: '400/711' }}>
+                <Image
                   src="/3 Patti Sky Game.webp"
                   alt="3Patti Sky Bind Email"
                   width={400}
                   height={711}
-                  className="w-full h-auto"
-                loading="lazy"
+                  className="w-full h-full object-cover"
+                  loading="lazy"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-              />
+                />
               </div>
             </div>
           </div>

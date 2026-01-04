@@ -8,6 +8,13 @@
   --background-end-rgb: 2, 6, 23;
 }
 
+/* Font optimization - prevent FOUT/FOIT */
+@layer base {
+  * {
+    font-display: swap;
+  }
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -16,12 +23,32 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  /* Prevent CLS from scrollbar */
+  overflow-y: scroll;
 }
 
 /* Prevent CLS by ensuring images don't shift layout */
 img {
   max-width: 100%;
   height: auto;
+}
+
+/* Prevent CLS for Next.js Image component */
+img[loading="lazy"] {
+  content-visibility: auto;
+}
+
+/* Reserve space for images */
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 177.75%; /* 711/400 = 1.7775 for screenshot aspect ratio */
+}
+
+/* Prevent layout shift for icons and SVGs */
+svg {
+  display: block;
 }
 
 .download-btn {
