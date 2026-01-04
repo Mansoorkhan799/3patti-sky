@@ -1,0 +1,25 @@
+# robots.txt for 3pattiskygame.com.pk
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+# Specific rules for Googlebot
+User-agent: Googlebot
+Allow: /
+
+# Specific rules for Googlebot-Image
+User-agent: Googlebot-Image
+Allow: /
+
+# Sitemaps
+Sitemap: https://3pattiskygame.com.pk/sitemap-index.xml
+Sitemap: https://3pattiskygame.com.pk/sitemap.xml
+Sitemap: https://3pattiskygame.com.pk/sitemap-images.xml
+Sitemap: https://3pattiskygame.com.pk/sitemap-blogs.xml
+
+# Host
+Host: https://3pattiskygame.com.pk
+
