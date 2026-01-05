@@ -258,7 +258,7 @@ export default function Home() {
                 </tr>
                 <tr className="bg-[#0a1029]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Update</td>
-                  <td className="py-4 px-6 text-left text-white">1st-November-2025</td>
+                  <td className="py-4 px-6 text-left text-white">5th January 2026</td>
                 </tr>
                 <tr className="bg-[#06091F]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Downloads</td>
@@ -446,30 +446,30 @@ export default function Home() {
             {/* Recharge Rebate */}
             <div className="w-full">
               <div className="rounded-lg overflow-hidden shadow-2xl" style={{ aspectRatio: '400/711' }}>
-                <Image
+              <Image
                   src="/3 Patti Sky Referral Bonus.webp"
                   alt="3Patti Sky Recharge Rebate"
                   width={400}
                   height={711}
                   className="w-full h-full object-cover"
-                  loading="lazy"
+                loading="lazy"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                />
+              />
               </div>
             </div>
 
             {/* Bind Email */}
             <div className="w-full">
               <div className="rounded-lg overflow-hidden shadow-2xl" style={{ aspectRatio: '400/711' }}>
-                <Image
+              <Image
                   src="/3 Patti Sky Game.webp"
                   alt="3Patti Sky Bind Email"
                   width={400}
                   height={711}
                   className="w-full h-full object-cover"
-                  loading="lazy"
+                loading="lazy"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                />
+              />
               </div>
             </div>
           </div>
