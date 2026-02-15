@@ -352,7 +352,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
             {/* Main Game Interface */}
             <div className="w-full max-w-[280px] mx-auto">
-              <div className="rounded-lg overflow-hidden shadow-2xl bg-transparent">
+              <div className="rounded-lg overflow-hidden shadow-2xl bg-transparent image-container-smooth">
                 <Image
                   src="/3 Patti Sky Game.webp"
                   alt="3Patti Sky Game Interface"
@@ -360,6 +360,7 @@ export default function Home() {
                   height={498}
                   className="w-full h-auto object-contain"
                   loading="lazy"
+                  decoding="async"
                   sizes="(max-width: 768px) 280px, (max-width: 1024px) 280px, 280px"
                 />
               </div>
@@ -368,7 +369,7 @@ export default function Home() {
 
             {/* Games Collection */}
             <div className="w-full max-w-[280px] mx-auto">
-              <div className="rounded-lg overflow-hidden shadow-2xl bg-transparent">
+              <div className="rounded-lg overflow-hidden shadow-2xl bg-transparent image-container-smooth">
                 <Image
                   src="/3 Patti Sky Dragon Tiger.webp"
                   alt="3Patti Sky Games Collection"
@@ -376,6 +377,7 @@ export default function Home() {
                   height={498}
                   className="w-full h-auto object-contain"
                   loading="lazy"
+                  decoding="async"
                   sizes="(max-width: 768px) 280px, (max-width: 1024px) 280px, 280px"
                 />
               </div>
@@ -384,7 +386,7 @@ export default function Home() {
 
             {/* Bonuses */}
             <div className="w-full max-w-[280px] mx-auto">
-              <div className="rounded-lg overflow-hidden shadow-2xl bg-transparent">
+              <div className="rounded-lg overflow-hidden shadow-2xl bg-transparent image-container-smooth">
                 <Image
                   src="/3 Patti Sky Free Bonus.webp"
                   alt="3Patti Sky Bonuses & Rewards"
@@ -392,6 +394,7 @@ export default function Home() {
                   height={498}
                   className="w-full h-auto object-contain"
                   loading="lazy"
+                  decoding="async"
                   sizes="(max-width: 768px) 280px, (max-width: 1024px) 280px, 280px"
                 />
               </div>
@@ -400,7 +403,7 @@ export default function Home() {
 
             {/* Add Money */}
             <div className="w-full max-w-[280px] mx-auto">
-              <div className="rounded-lg overflow-hidden shadow-2xl bg-transparent">
+              <div className="rounded-lg overflow-hidden shadow-2xl bg-transparent image-container-smooth">
                 <Image
                   src="/3 Patti Sky Deposit.webp"
                   alt="3Patti Sky Deposit Money"
@@ -408,6 +411,7 @@ export default function Home() {
                   height={498}
                   className="w-full h-auto object-contain"
                   loading="lazy"
+                  decoding="async"
                   sizes="(max-width: 768px) 280px, (max-width: 1024px) 280px, 280px"
                 />
               </div>
@@ -416,7 +420,7 @@ export default function Home() {
 
             {/* Withdraw Money */}
             <div className="w-full max-w-[280px] mx-auto">
-              <div className="rounded-lg overflow-hidden shadow-2xl bg-transparent">
+              <div className="rounded-lg overflow-hidden shadow-2xl bg-transparent image-container-smooth">
                 <Image
                   src="/3 Patti Sky.webp"
                   alt="3Patti Sky App Overview"
@@ -424,6 +428,7 @@ export default function Home() {
                   height={498}
                   className="w-full h-auto object-contain"
                   loading="lazy"
+                  decoding="async"
                   sizes="(max-width: 768px) 280px, (max-width: 1024px) 280px, 280px"
                 />
               </div>
@@ -432,7 +437,7 @@ export default function Home() {
 
             {/* Referral Bonus */}
             <div className="w-full max-w-[280px] mx-auto">
-              <div className="rounded-lg overflow-hidden shadow-2xl bg-transparent">
+              <div className="rounded-lg overflow-hidden shadow-2xl bg-transparent image-container-smooth">
                 <Image
                   src="/3 Patti Sky Referral Bonus.webp"
                   alt="3Patti Sky Referral Bonus"
@@ -440,6 +445,7 @@ export default function Home() {
                   height={498}
                   className="w-full h-auto object-contain"
                   loading="lazy"
+                  decoding="async"
                   sizes="(max-width: 768px) 280px, (max-width: 1024px) 280px, 280px"
                 />
               </div>
