@@ -200,7 +200,7 @@ export default function Home() {
                 className="object-contain drop-shadow-2xl w-full h-full"
                 priority={true}
                 fetchPriority="high"
-                quality={90}
+                quality={75}
                 sizes="320px"
               />
             </div>
@@ -217,7 +217,7 @@ export default function Home() {
                 className="object-contain drop-shadow-2xl w-full h-full"
                 priority={true}
                 fetchPriority="high"
-                quality={90}
+                quality={75}
                 sizes="280px"
               />
             </div>
@@ -349,128 +349,101 @@ export default function Home() {
         <div className="bg-[#06091F] rounded-xl p-8">
           <h2 className="text-4xl font-bold mb-12 text-[#FFA500] text-center">3Patti Sky App Screenshots</h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
             {/* Main Game Interface */}
-            <div className="w-full">
-              <div className="rounded-lg overflow-hidden shadow-2xl" style={{ aspectRatio: '400/711' }}>
+            <div className="w-full max-w-[280px] mx-auto">
+              <div className="rounded-lg overflow-hidden shadow-2xl bg-transparent">
                 <Image
                   src="/3 Patti Sky Game.webp"
                   alt="3Patti Sky Game Interface"
-                  width={400}
-                  height={711}
-                  className="w-full h-full object-cover"
+                  width={280}
+                  height={498}
+                  className="w-full h-auto object-contain"
                   loading="lazy"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  sizes="(max-width: 768px) 280px, (max-width: 1024px) 280px, 280px"
                 />
               </div>
+              <p className="text-center text-gray-300 mt-3 text-sm font-medium">Game Interface</p>
             </div>
 
             {/* Games Collection */}
-            <div className="w-full">
-              <div className="rounded-lg overflow-hidden shadow-2xl" style={{ aspectRatio: '400/711' }}>
+            <div className="w-full max-w-[280px] mx-auto">
+              <div className="rounded-lg overflow-hidden shadow-2xl bg-transparent">
                 <Image
                   src="/3 Patti Sky Dragon Tiger.webp"
                   alt="3Patti Sky Games Collection"
-                  width={400}
-                  height={711}
-                  className="w-full h-full object-cover"
+                  width={280}
+                  height={498}
+                  className="w-full h-auto object-contain"
                   loading="lazy"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  sizes="(max-width: 768px) 280px, (max-width: 1024px) 280px, 280px"
                 />
               </div>
+              <p className="text-center text-gray-300 mt-3 text-sm font-medium">Dragon Tiger Game</p>
             </div>
 
             {/* Bonuses */}
-            <div className="w-full">
-              <div className="rounded-lg overflow-hidden shadow-2xl" style={{ aspectRatio: '400/711' }}>
+            <div className="w-full max-w-[280px] mx-auto">
+              <div className="rounded-lg overflow-hidden shadow-2xl bg-transparent">
                 <Image
                   src="/3 Patti Sky Free Bonus.webp"
                   alt="3Patti Sky Bonuses & Rewards"
-                  width={400}
-                  height={711}
-                  className="w-full h-full object-cover"
+                  width={280}
+                  height={498}
+                  className="w-full h-auto object-contain"
                   loading="lazy"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  sizes="(max-width: 768px) 280px, (max-width: 1024px) 280px, 280px"
                 />
               </div>
+              <p className="text-center text-gray-300 mt-3 text-sm font-medium">Free Bonuses & Rewards</p>
             </div>
 
             {/* Add Money */}
-            <div className="w-full">
-              <div className="rounded-lg overflow-hidden shadow-2xl" style={{ aspectRatio: '400/711' }}>
+            <div className="w-full max-w-[280px] mx-auto">
+              <div className="rounded-lg overflow-hidden shadow-2xl bg-transparent">
                 <Image
                   src="/3 Patti Sky Deposit.webp"
                   alt="3Patti Sky Deposit Money"
-                  width={400}
-                  height={711}
-                  className="w-full h-full object-cover"
+                  width={280}
+                  height={498}
+                  className="w-full h-auto object-contain"
                   loading="lazy"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  sizes="(max-width: 768px) 280px, (max-width: 1024px) 280px, 280px"
                 />
               </div>
+              <p className="text-center text-gray-300 mt-3 text-sm font-medium">Deposit Money</p>
             </div>
 
             {/* Withdraw Money */}
-            <div className="w-full">
-              <div className="rounded-lg overflow-hidden shadow-2xl" style={{ aspectRatio: '400/711' }}>
+            <div className="w-full max-w-[280px] mx-auto">
+              <div className="rounded-lg overflow-hidden shadow-2xl bg-transparent">
                 <Image
-                  src="/3 Patti Sky Deposit.webp"
-                  alt="3Patti Sky Withdraw Money"
-                  width={400}
-                  height={711}
-                  className="w-full h-full object-cover"
+                  src="/3 Patti Sky.webp"
+                  alt="3Patti Sky App Overview"
+                  width={280}
+                  height={498}
+                  className="w-full h-auto object-contain"
                   loading="lazy"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  sizes="(max-width: 768px) 280px, (max-width: 1024px) 280px, 280px"
                 />
               </div>
+              <p className="text-center text-gray-300 mt-3 text-sm font-medium">App Overview</p>
             </div>
 
-            {/* VIP Program */}
-            <div className="w-full">
-              <div className="rounded-lg overflow-hidden shadow-2xl" style={{ aspectRatio: '400/711' }}>
+            {/* Referral Bonus */}
+            <div className="w-full max-w-[280px] mx-auto">
+              <div className="rounded-lg overflow-hidden shadow-2xl bg-transparent">
                 <Image
-                  src="/3 Patti Sky Game.webp"
-                  alt="3Patti Sky VIP Program"
-                  width={400}
-                  height={711}
-                  className="w-full h-full object-cover"
-                  loading="lazy"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                />
-              </div>
-            </div>
-          </div>
-
-          {/* Additional Screenshots */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* Recharge Rebate */}
-            <div className="w-full">
-              <div className="rounded-lg overflow-hidden shadow-2xl" style={{ aspectRatio: '400/711' }}>
-              <Image
                   src="/3 Patti Sky Referral Bonus.webp"
-                  alt="3Patti Sky Recharge Rebate"
-                  width={400}
-                  height={711}
-                  className="w-full h-full object-cover"
-                loading="lazy"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-              />
+                  alt="3Patti Sky Referral Bonus"
+                  width={280}
+                  height={498}
+                  className="w-full h-auto object-contain"
+                  loading="lazy"
+                  sizes="(max-width: 768px) 280px, (max-width: 1024px) 280px, 280px"
+                />
               </div>
-            </div>
-
-            {/* Bind Email */}
-            <div className="w-full">
-              <div className="rounded-lg overflow-hidden shadow-2xl" style={{ aspectRatio: '400/711' }}>
-              <Image
-                  src="/3 Patti Sky Game.webp"
-                  alt="3Patti Sky Bind Email"
-                  width={400}
-                  height={711}
-                  className="w-full h-full object-cover"
-                loading="lazy"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-              />
-              </div>
+              <p className="text-center text-gray-300 mt-3 text-sm font-medium">Referral & Win Bonus</p>
             </div>
           </div>
         </div>

@@ -78,34 +78,12 @@ export const metadata: Metadata = {
     siteName: "3Patti Sky",
     locale: "en_US",
     type: "website",
-    images: [
-      {
-        url: "https://3pattiskygame.com.pk/feature/og-image.webp",
-        width: 1200,
-        height: 630,
-        alt: "3Patti Sky - Premier Card Gaming Platform",
-      },
-      {
-        url: "https://3pattiskygame.com.pk/feature/og-image-square.webp",
-        width: 800,
-        height: 800,
-        alt: "3Patti Sky - Premier Card Gaming Platform",
-      }
-    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "3Patti Sky Game Download | New Earning App in Pakistan 2026",
     description: "Join 600K+ players on Pakistan's premier card game platform. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!",
     creator: "@3pattisky",
-    images: [
-      {
-        url: "https://3pattiskygame.com.pk/feature/twitter-card.webp",
-        width: 1200,
-        height: 600,
-        alt: "3Patti Sky - Premier Card Gaming Platform",
-      }
-    ],
   },
   applicationName: "3Patti Sky",
   category: "Gaming",
@@ -123,6 +101,9 @@ export default function RootLayout({
         {/* DNS prefetch for better performance */}
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
+        
+        {/* Preload critical resources */}
+        <link rel="preload" href="/3PattiSky.webp" as="image" type="image/webp" fetchPriority="high" />
         
         <link rel="manifest" href="/manifest.json" />
         <meta name="mobile-web-app-capable" content="yes" />

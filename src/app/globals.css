@@ -95,4 +95,20 @@ svg {
 /* Prevent layout shift by ensuring content takes up space */
 .stars-bg {
   pointer-events: none;
+}
+
+/* Prevent footer layout shift */
+footer {
+  contain: layout style;
+  will-change: auto;
+}
+
+/* Reserve space for footer to prevent CLS */
+body {
+  padding-bottom: 0;
+}
+
+/* Optimize font loading to prevent CLS */
+@font-face {
+  font-display: swap;
 } 
