@@ -20,6 +20,48 @@ export async function GET() {
       priority: '0.8',
       title: 'Is 3Patti Sky Real or Fake to Earn Money? Complete Guide 2026',
     },
+    {
+      url: `${baseUrl}/blog/how-to-play-3patti-sky`,
+      lastMod: '2026-01-05T00:00:00+00:00',
+      changeFreq: 'monthly',
+      priority: '0.8',
+      title: 'How to Play 3Patti Sky - Complete Beginner Guide 2026',
+    },
+    {
+      url: `${baseUrl}/blog/tips-to-win-3patti-sky`,
+      lastMod: '2026-01-05T00:00:00+00:00',
+      changeFreq: 'monthly',
+      priority: '0.8',
+      title: 'Tips and Strategies to Win in 3Patti Sky - Expert Guide 2026',
+    },
+    {
+      url: `${baseUrl}/blog/how-to-earn-money-3patti-sky`,
+      lastMod: '2026-01-05T00:00:00+00:00',
+      changeFreq: 'monthly',
+      priority: '0.8',
+      title: 'How to Earn Money in 3Patti Sky - Complete Earning Guide 2026',
+    },
+    {
+      url: `${baseUrl}/blog/payment-methods-jazzcash-easypaisa`,
+      lastMod: '2026-01-05T00:00:00+00:00',
+      changeFreq: 'monthly',
+      priority: '0.8',
+      title: '3Patti Sky Payment Methods - JazzCash and EasyPaisa Guide 2026',
+    },
+    {
+      url: `${baseUrl}/blog/3patti-sky-features-benefits`,
+      lastMod: '2026-01-05T00:00:00+00:00',
+      changeFreq: 'monthly',
+      priority: '0.8',
+      title: '3Patti Sky App Features and Benefits - Complete Guide 2026',
+    },
+    {
+      url: `${baseUrl}/blog/how-to-create-account-login`,
+      lastMod: '2026-01-05T00:00:00+00:00',
+      changeFreq: 'monthly',
+      priority: '0.8',
+      title: 'How to Create Account and Login in 3Patti Sky - Step by Step Guide 2026',
+    },
   ];
 
   // Generate XML

@@ -40,6 +40,90 @@ export default function Blog() {
             Read More →
           </Link>
         </div>
+
+        {/* How to Play 3Patti Sky */}
+        <div className="bg-secondary px-8 py-8 rounded-lg hover:shadow-lg transition-all">
+          <h2 className="text-2xl font-bold mb-4 text-white">How to Play 3Patti Sky - Complete Beginner Guide</h2>
+          <p className="text-gray-300 mb-4">Learn how to play 3Patti Sky step by step. Complete beginner guide with rules, gameplay, tips, and strategies for Teen Patti and more.</p>
+          <div className="flex items-center gap-2 text-sm text-gray-400 mb-4">
+            <span>📅 January 2026</span>
+            <span>•</span>
+            <span>8 min read</span>
+          </div>
+          <Link href="/blog/how-to-play-3patti-sky" className="text-accent hover:underline font-semibold">
+            Read More →
+          </Link>
+        </div>
+
+        {/* Tips to Win */}
+        <div className="bg-secondary px-8 py-8 rounded-lg hover:shadow-lg transition-all">
+          <h2 className="text-2xl font-bold mb-4 text-white">Tips and Strategies to Win in 3Patti Sky</h2>
+          <p className="text-gray-300 mb-4">Learn proven tips and strategies to win in 3Patti Sky. Expert guide on Teen Patti strategies, bankroll management, and winning techniques.</p>
+          <div className="flex items-center gap-2 text-sm text-gray-400 mb-4">
+            <span>📅 January 2026</span>
+            <span>•</span>
+            <span>9 min read</span>
+          </div>
+          <Link href="/blog/tips-to-win-3patti-sky" className="text-accent hover:underline font-semibold">
+            Read More →
+          </Link>
+        </div>
+
+        {/* How to Earn Money */}
+        <div className="bg-secondary px-8 py-8 rounded-lg hover:shadow-lg transition-all">
+          <h2 className="text-2xl font-bold mb-4 text-white">How to Earn Money in 3Patti Sky</h2>
+          <p className="text-gray-300 mb-4">Learn how to earn real money in 3Patti Sky. Complete guide on earning methods, bonuses, referral program, and withdrawal process.</p>
+          <div className="flex items-center gap-2 text-sm text-gray-400 mb-4">
+            <span>📅 January 2026</span>
+            <span>•</span>
+            <span>10 min read</span>
+          </div>
+          <Link href="/blog/how-to-earn-money-3patti-sky" className="text-accent hover:underline font-semibold">
+            Read More →
+          </Link>
+        </div>
+
+        {/* Payment Methods */}
+        <div className="bg-secondary px-8 py-8 rounded-lg hover:shadow-lg transition-all">
+          <h2 className="text-2xl font-bold mb-4 text-white">3Patti Sky Payment Methods - JazzCash & EasyPaisa</h2>
+          <p className="text-gray-300 mb-4">Complete guide on using JazzCash and EasyPaisa for deposits and withdrawals in 3Patti Sky. Step-by-step instructions for Pakistani players.</p>
+          <div className="flex items-center gap-2 text-sm text-gray-400 mb-4">
+            <span>📅 January 2026</span>
+            <span>•</span>
+            <span>7 min read</span>
+          </div>
+          <Link href="/blog/payment-methods-jazzcash-easypaisa" className="text-accent hover:underline font-semibold">
+            Read More →
+          </Link>
+        </div>
+
+        {/* Features and Benefits */}
+        <div className="bg-secondary px-8 py-8 rounded-lg hover:shadow-lg transition-all">
+          <h2 className="text-2xl font-bold mb-4 text-white">3Patti Sky App Features and Benefits</h2>
+          <p className="text-gray-300 mb-4">Discover all the amazing features and benefits of 3Patti Sky app. Learn about games, bonuses, security, and why it's the best platform.</p>
+          <div className="flex items-center gap-2 text-sm text-gray-400 mb-4">
+            <span>📅 January 2026</span>
+            <span>•</span>
+            <span>8 min read</span>
+          </div>
+          <Link href="/blog/3patti-sky-features-benefits" className="text-accent hover:underline font-semibold">
+            Read More →
+          </Link>
+        </div>
+
+        {/* How to Create Account and Login */}
+        <div className="bg-secondary px-8 py-8 rounded-lg hover:shadow-lg transition-all">
+          <h2 className="text-2xl font-bold mb-4 text-white">How to Create Account and Login in 3Patti Sky</h2>
+          <p className="text-gray-300 mb-4">Complete step-by-step guide on creating an account and logging in to 3Patti Sky. Learn registration, verification, and login process.</p>
+          <div className="flex items-center gap-2 text-sm text-gray-400 mb-4">
+            <span>📅 January 2026</span>
+            <span>•</span>
+            <span>6 min read</span>
+          </div>
+          <Link href="/blog/how-to-create-account-login" className="text-accent hover:underline font-semibold">
+            Read More →
+          </Link>
+        </div>
       </div>
     </div>
   );
