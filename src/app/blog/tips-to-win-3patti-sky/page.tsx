@@ -42,7 +42,7 @@ export default function TipsToWinPage() {
     "@type": "BlogPosting",
     "headline": "Tips and Strategies to Win in 3Patti Sky - Expert Guide 2026",
     "description": "Expert tips and strategies to help you win more games in 3Patti Sky.",
-    "image": "https://3pattiskygame.com.pk/3PattiSky.webp",
+    "image": "https://3pattiskygame.com.pk/3-Patti-Sky.webp",
     "author": {
       "@type": "Organization",
       "name": "3Patti Sky",
@@ -53,7 +53,7 @@ export default function TipsToWinPage() {
       "name": "3Patti Sky",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://3pattiskygame.com.pk/3PattiSky.webp"
+        "url": "https://3pattiskygame.com.pk/3-Patti-Sky.webp"
       }
     },
     "datePublished": "2026-01-05",
@@ -94,7 +94,7 @@ export default function TipsToWinPage() {
         
         <div className="relative w-full h-64 md:h-96 rounded-xl overflow-hidden mb-8">
           <Image
-            src="/3 Patti Sky Dragon Tiger.webp"
+            src="/3-Patti-Sky-Dragon-Tiger.webp"
             alt="Tips to Win 3Patti Sky"
             fill
             className="object-cover"

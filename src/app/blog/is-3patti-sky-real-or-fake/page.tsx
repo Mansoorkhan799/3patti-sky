@@ -44,7 +44,7 @@ export default function PattiSkyRealOrFakePage() {
     "@type": "BlogPosting",
     "headline": "Is 3Patti Sky Real or Fake to Earn Money? - Complete Guide 2026",
     "description": "Discover if 3Patti Sky app is real or fake. Learn about legitimacy, payment methods, safety tips, and how to identify fake apps.",
-    "image": "https://3pattiskygame.com.pk/3PattiSky.webp",
+    "image": "https://3pattiskygame.com.pk/3-Patti-Sky.webp",
     "author": {
       "@type": "Organization",
       "name": "3Patti Sky",
@@ -55,7 +55,7 @@ export default function PattiSkyRealOrFakePage() {
       "name": "3Patti Sky",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://3pattiskygame.com.pk/3PattiSky.webp"
+        "url": "https://3pattiskygame.com.pk/3-Patti-Sky.webp"
       }
     },
     "datePublished": "2026-01-04",
@@ -104,7 +104,7 @@ export default function PattiSkyRealOrFakePage() {
         {/* Featured Image */}
         <div className="relative w-full h-64 md:h-96 rounded-xl overflow-hidden mb-8">
           <Image
-            src="/3PattiSky.webp"
+            src="/3-Patti-Sky.webp"
             alt="3Patti Sky Real or Fake"
             fill
             className="object-cover"

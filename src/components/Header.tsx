@@ -12,7 +12,7 @@ export default function Header() {
         <Link href="/" className="flex items-center">
           <div className="relative h-10 w-10 mr-2">
             <Image
-              src="/3PattiSky.webp"
+              src="/3-Patti-Sky.webp"
               alt="3Patti Sky Logo"
               width={40}
               height={40}

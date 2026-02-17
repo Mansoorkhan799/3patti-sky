@@ -42,7 +42,7 @@ export default function HowToPlayPage() {
     "@type": "BlogPosting",
     "headline": "How to Play 3Patti Sky - Complete Beginner Guide 2026",
     "description": "Complete beginner guide on how to play 3Patti Sky, including rules, gameplay, and tips for Teen Patti and other card games.",
-    "image": "https://3pattiskygame.com.pk/3PattiSky.webp",
+    "image": "https://3pattiskygame.com.pk/3-Patti-Sky.webp",
     "author": {
       "@type": "Organization",
       "name": "3Patti Sky",
@@ -53,7 +53,7 @@ export default function HowToPlayPage() {
       "name": "3Patti Sky",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://3pattiskygame.com.pk/3PattiSky.webp"
+        "url": "https://3pattiskygame.com.pk/3-Patti-Sky.webp"
       }
     },
     "datePublished": "2026-01-05",
@@ -94,7 +94,7 @@ export default function HowToPlayPage() {
         
         <div className="relative w-full h-64 md:h-96 rounded-xl overflow-hidden mb-8">
           <Image
-            src="/3 Patti Sky Game.webp"
+            src="/3-Patti-Sky-Game.webp"
             alt="How to Play 3Patti Sky"
             fill
             className="object-cover"

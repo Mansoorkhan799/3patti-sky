@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description: 'Join 600K+ players on Pakistan\'s premier card game platform. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!',
     images: [
       {
-        url: 'https://3pattiskygame.com.pk/3patti-sky-logo.webp',
+        url: 'https://3pattiskygame.com.pk/3-Patti-Sky-logo.webp',
         width: 1200,
         height: 630,
         alt: '3Patti Sky APK Download'
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: '3Patti Sky Game Download | New Earning App in Pakistan 2026',
     description: 'Join 600K+ players on Pakistan\'s premier card game platform. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!',
-    images: ['https://3pattiskygame.com.pk/3patti-sky-logo.webp']
+    images: ['https://3pattiskygame.com.pk/3-Patti-Sky-logo.webp']
   }
 };
 
@@ -67,7 +67,7 @@ export default function Home() {
         "url": "https://3pattiskygame.com.pk/",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://3pattiskygame.com.pk/3patti-sky-logo.webp",
+          "url": "https://3pattiskygame.com.pk/3-Patti-Sky-logo.webp",
           "width": 512,
           "height": 512
         },
@@ -101,9 +101,9 @@ export default function Home() {
         "fileSize": "49MB",
         "description": "Play Teen Patti, Rummy, Dragon Tiger and other card games. Earn real money with JazzCash & EasyPaisa withdrawals.",
         "screenshot": [
-          "https://3pattiskygame.com.pk/3patti-sky-screenshot1.webp",
-          "https://3pattiskygame.com.pk/3patti-sky-screenshot2.webp",
-          "https://3pattiskygame.com.pk/3patti-sky-screenshot3.webp"
+          "https://3pattiskygame.com.pk/3-Patti-Sky-Game.webp",
+          "https://3pattiskygame.com.pk/3-Patti-Sky-Games.webp",
+          "https://3pattiskygame.com.pk/3-Patti-Sky.webp"
         ],
         "author": {
           "@type": "Organization",
@@ -193,7 +193,7 @@ export default function Home() {
           <div className="hidden md:block md:w-1/2 md:mt-8">
             <div className="relative ml-auto w-[320px] h-[320px] max-w-full">
               <Image
-                src="/3PattiSky.webp"
+                src="/3-Patti-Sky.webp"
                 alt="3Patti Sky Logo"
                 width={320}
                 height={320}
@@ -210,7 +210,7 @@ export default function Home() {
           <div className="mt-8 md:hidden">
             <div className="relative mx-auto w-[280px] h-[280px] max-w-full">
               <Image
-                src="/3PattiSky.webp"
+                src="/3-Patti-Sky.webp"
                 alt="3Patti Sky Logo"
                 width={280}
                 height={280}
@@ -354,7 +354,7 @@ export default function Home() {
             <div className="w-full max-w-[280px] mx-auto">
               <div className="rounded-lg overflow-hidden shadow-2xl bg-transparent image-container-smooth">
                 <Image
-                  src="/3 Patti Sky Game.webp"
+                  src="/3-Patti-Sky-Game.webp"
                   alt="3Patti Sky Game Interface"
                   width={280}
                   height={498}
@@ -371,7 +371,7 @@ export default function Home() {
             <div className="w-full max-w-[280px] mx-auto">
               <div className="rounded-lg overflow-hidden shadow-2xl bg-transparent image-container-smooth">
                 <Image
-                  src="/3 Patti Sky Dragon Tiger.webp"
+                  src="/3-Patti-Sky-Dragon-Tiger.webp"
                   alt="3Patti Sky Games Collection"
                   width={280}
                   height={498}
@@ -388,7 +388,7 @@ export default function Home() {
             <div className="w-full max-w-[280px] mx-auto">
               <div className="rounded-lg overflow-hidden shadow-2xl bg-transparent image-container-smooth">
                 <Image
-                  src="/3 Patti Sky Free Bonus.webp"
+                  src="/3-Patti-Sky-Free-Bonus.webp"
                   alt="3Patti Sky Bonuses & Rewards"
                   width={280}
                   height={498}
@@ -405,7 +405,7 @@ export default function Home() {
             <div className="w-full max-w-[280px] mx-auto">
               <div className="rounded-lg overflow-hidden shadow-2xl bg-transparent image-container-smooth">
                 <Image
-                  src="/3 Patti Sky Deposit.webp"
+                  src="/3-Patti-Sky-Deposit.webp"
                   alt="3Patti Sky Deposit Money"
                   width={280}
                   height={498}
@@ -418,11 +418,11 @@ export default function Home() {
               <p className="text-center text-gray-300 mt-3 text-sm font-medium">Deposit Money</p>
             </div>
 
-            {/* Withdraw Money */}
+            {/* App Overview */}
             <div className="w-full max-w-[280px] mx-auto">
               <div className="rounded-lg overflow-hidden shadow-2xl bg-transparent image-container-smooth">
                 <Image
-                  src="/3 Patti Sky.webp"
+                  src="/3-Patti-Sky-Games.webp"
                   alt="3Patti Sky App Overview"
                   width={280}
                   height={498}
@@ -439,7 +439,7 @@ export default function Home() {
             <div className="w-full max-w-[280px] mx-auto">
               <div className="rounded-lg overflow-hidden shadow-2xl bg-transparent image-container-smooth">
                 <Image
-                  src="/3 Patti Sky Referral Bonus.webp"
+                  src="/3-Patti-Sky-Referral-Bonus.webp"
                   alt="3Patti Sky Referral Bonus"
                   width={280}
                   height={498}

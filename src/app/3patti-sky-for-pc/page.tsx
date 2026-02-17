@@ -44,7 +44,7 @@ export default function ThreePattiSkyForPCPage() {
     "@type": "TechArticle",
     "headline": "3 Patti Sky for PC Download Latest Version for free 2026",
     "description": "Complete guide to download and play 3Patti Sky on PC using Android emulator. Learn about system requirements, best emulators, and features.",
-    "image": "https://3pattiskygame.com.pk/3patti-sky-logo.webp",
+    "image": "https://3pattiskygame.com.pk/3-Patti-Sky-logo.webp",
     "author": {
       "@type": "Organization",
       "name": "3Patti Sky",
@@ -55,7 +55,7 @@ export default function ThreePattiSkyForPCPage() {
       "name": "3Patti Sky",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://3pattiskygame.com.pk/3patti-sky-logo.webp"
+        "url": "https://3pattiskygame.com.pk/3-Patti-Sky-logo.webp"
       }
     },
     "datePublished": "2026-01-04",
@@ -103,7 +103,7 @@ export default function ThreePattiSkyForPCPage() {
         <div className="flex justify-center mb-12">
           <div className="relative" style={{ width: '280px', height: '280px', maxWidth: '100%' }}>
             <Image
-              src="/3PattiSky.webp"
+              src="/3-Patti-Sky.webp"
               alt="3Patti Sky for PC"
               width={280}
               height={280}

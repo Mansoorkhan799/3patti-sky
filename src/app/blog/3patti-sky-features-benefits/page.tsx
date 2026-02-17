@@ -42,7 +42,7 @@ export default function FeaturesBenefitsPage() {
     "@type": "BlogPosting",
     "headline": "3Patti Sky App Features and Benefits - Complete Guide 2026",
     "description": "Complete guide on all features and benefits of the 3Patti Sky app.",
-    "image": "https://3pattiskygame.com.pk/3PattiSky.webp",
+    "image": "https://3pattiskygame.com.pk/3-Patti-Sky.webp",
     "author": {
       "@type": "Organization",
       "name": "3Patti Sky",
@@ -53,7 +53,7 @@ export default function FeaturesBenefitsPage() {
       "name": "3Patti Sky",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://3pattiskygame.com.pk/3PattiSky.webp"
+        "url": "https://3pattiskygame.com.pk/3-Patti-Sky.webp"
       }
     },
     "datePublished": "2026-01-05",
@@ -94,7 +94,7 @@ export default function FeaturesBenefitsPage() {
         
         <div className="relative w-full h-64 md:h-96 rounded-xl overflow-hidden mb-8">
           <Image
-            src="/3PattiSky.webp"
+            src="/3-Patti-Sky.webp"
             alt="3Patti Sky Features and Benefits"
             fill
             className="object-cover"

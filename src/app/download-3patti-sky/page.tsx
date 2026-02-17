@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://3pattiskygame.com.pk/3patti-sky-logo.webp",
+        url: "https://3pattiskygame.com.pk/3-Patti-Sky-logo.webp",
         width: 1200,
         height: 630,
         alt: "Download 3Patti Sky APK",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: 'Download 3Patti Sky Game Free APK For Android',
     description: 'Download 3Patti Sky APK free. Play Teen Patti, Rummy & more. Earn real cash with secure payments. 600K+ downloads!',
-    images: ["https://3pattiskygame.com.pk/3patti-sky-logo.webp"],
+    images: ["https://3pattiskygame.com.pk/3-Patti-Sky-logo.webp"],
   },
 };
 
@@ -77,11 +77,11 @@ export default function DownloadPage() {
     "datePublished": "2025-11-01",
     "description": "Download 3Patti Sky APK free for Android. Play Teen Patti, Rummy, Dragon Tiger & more. Earn real cash with JazzCash & EasyPaisa.",
     "screenshot": [
-      "https://3pattiskygame.com.pk/3patti-sky-screenshot1.webp",
-      "https://3pattiskygame.com.pk/3patti-sky-screenshot2.webp",
-      "https://3pattiskygame.com.pk/3patti-sky-screenshot3.webp"
+      "https://3pattiskygame.com.pk/3-Patti-Sky-Game.webp",
+      "https://3pattiskygame.com.pk/3-Patti-Sky-Games.webp",
+      "https://3pattiskygame.com.pk/3-Patti-Sky.webp"
     ],
-    "image": "https://3pattiskygame.com.pk/3patti-sky-logo.webp",
+    "image": "https://3pattiskygame.com.pk/3-Patti-Sky-logo.webp",
     "author": {
       "@type": "Organization",
       "name": "3Patti Sky",
@@ -142,7 +142,7 @@ export default function DownloadPage() {
         <div className="flex justify-center mb-12">
           <div className="relative" style={{ width: '320px', height: '320px', maxWidth: '100%' }}>
             <Image
-              src="/3PattiSky.webp"
+              src="/3-Patti-Sky.webp"
               alt="3Patti Sky Logo"
               width={320}
               height={320}

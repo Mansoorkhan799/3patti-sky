@@ -62,7 +62,7 @@ export default function MobileNavigation() {
             <Link href="/" className="flex items-center gap-3" onClick={() => setIsOpen(false)}>
               <div className="relative w-8 h-8 flex-shrink-0">
                 <Image
-                  src="/3PattiSky.webp"
+                  src="/3-Patti-Sky.webp"
                   alt="3Patti Sky Logo"
                   fill
                   sizes="(max-width: 768px) 32px, 40px"

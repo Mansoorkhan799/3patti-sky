@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://3pattiskygame.com.pk/3PattiSky.webp",
+        url: "https://3pattiskygame.com.pk/3-Patti-Sky.webp",
         width: 1200,
         height: 630,
         alt: "About 3Patti Sky - Premier Card Gaming Platform",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: 'About 3Patti Sky - Pakistan\'s Premier Card Gaming Platform',
     description: 'Learn about 3Patti Sky, our history, mission, and vision for creating the best card gaming platform in Pakistan with real cash rewards.',
-    images: ["https://3pattiskygame.com.pk/3PattiSky.webp"],
+    images: ["https://3pattiskygame.com.pk/3-Patti-Sky.webp"],
   },
 };
 
@@ -61,7 +61,7 @@ export default function AboutPage() {
                 <div className="relative w-full aspect-square rounded-lg overflow-hidden bg-[#0A1029]">
                   <Link href="/">
                     <Image 
-                      src="/3PattiSky.webp" 
+                      src="/3-Patti-Sky.webp" 
                       alt="3Patti Sky Logo" 
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 320px"
@@ -120,7 +120,7 @@ export default function AboutPage() {
               "name": "3Patti Sky",
               "alternateName": "3 Patti 3Patti Sky",
               "url": "https://3pattiskygame.com.pk",
-              "logo": "https://3pattiskygame.com.pk/3PattiSky.webp",
+              "logo": "https://3pattiskygame.com.pk/3-Patti-Sky.webp",
               "description": "3Patti Sky is Pakistan's premier card gaming platform, offering Teen Patti, Rummy, Dragon vs Tiger and more with real cash rewards.",
               "foundingDate": "2024",
               "foundingLocation": {

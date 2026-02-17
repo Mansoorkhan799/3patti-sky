@@ -43,7 +43,7 @@ export default function PaymentMethodsPage() {
     "@type": "BlogPosting",
     "headline": "3Patti Sky Payment Methods - JazzCash and EasyPaisa Guide 2026",
     "description": "Complete guide on using JazzCash and EasyPaisa for deposits and withdrawals in 3Patti Sky.",
-    "image": "https://3pattiskygame.com.pk/3PattiSky.webp",
+    "image": "https://3pattiskygame.com.pk/3-Patti-Sky.webp",
     "author": {
       "@type": "Organization",
       "name": "3Patti Sky",
@@ -54,7 +54,7 @@ export default function PaymentMethodsPage() {
       "name": "3Patti Sky",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://3pattiskygame.com.pk/3PattiSky.webp"
+        "url": "https://3pattiskygame.com.pk/3-Patti-Sky.webp"
       }
     },
     "datePublished": "2026-01-05",
@@ -95,7 +95,7 @@ export default function PaymentMethodsPage() {
         
         <div className="relative w-full h-64 md:h-96 rounded-xl overflow-hidden mb-8">
           <Image
-            src="/3 Patti Sky Deposit.webp"
+            src="/3-Patti-Sky-Deposit.webp"
             alt="3Patti Sky Payment Methods"
             fill
             className="object-cover"

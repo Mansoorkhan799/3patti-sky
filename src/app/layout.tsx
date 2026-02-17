@@ -56,13 +56,13 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: '/3PattiSky.ico', type: 'image/x-icon', sizes: '32x32' },
-      { url: '/3PattiSky.webp', type: 'image/webp', sizes: '192x192' },
+      { url: '/3-Patti-Sky.ico', type: 'image/x-icon', sizes: '32x32' },
+      { url: '/3-Patti-Sky.webp', type: 'image/webp', sizes: '192x192' },
     ],
     apple: [
-      { url: '/3PattiSky.webp', sizes: '180x180', type: 'image/webp' }
+      { url: '/3-Patti-Sky.webp', sizes: '180x180', type: 'image/webp' }
     ],
-    shortcut: ['/3PattiSky.ico']
+    shortcut: ['/3-Patti-Sky.ico']
   },
   manifest: '/manifest.json',
   verification: {
@@ -107,11 +107,11 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
         
         {/* Favicon - Multiple formats for best browser support */}
-        <link rel="icon" href="/3PattiSky.ico" sizes="32x32" />
-        <link rel="icon" href="/3PattiSky.webp" type="image/webp" sizes="192x192" />
-        <link rel="apple-touch-icon" href="/3PattiSky.webp" sizes="180x180" />
+        <link rel="icon" href="/3-Patti-Sky.ico" sizes="32x32" />
+        <link rel="icon" href="/3-Patti-Sky.webp" type="image/webp" sizes="192x192" />
+        <link rel="apple-touch-icon" href="/3-Patti-Sky.webp" sizes="180x180" />
         
-        <meta property="og:image" content="/3PattiSky.webp" />
+        <meta property="og:image" content="/3-Patti-Sky.webp" />
         
         {/* Google Analytics */}
         <Script
@@ -157,7 +157,7 @@ export default function RootLayout({
               "@type": "Organization",
               "name": "3Patti Sky",
               "url": "https://3pattiskygame.com.pk",
-              "logo": "https://3pattiskygame.com.pk/3PattiSky.webp",
+              "logo": "https://3pattiskygame.com.pk/3-Patti-Sky.webp",
               "description": "3Patti Sky is Pakistan's premier card gaming platform, offering Teen Patti, Rummy, and many other card games with real cash rewards.",
               "sameAs": [
                 "https://facebook.com/3pattisky",

@@ -3,50 +3,50 @@ import { NextResponse } from 'next/server';
 export async function GET() {
   const baseUrl = 'https://3pattiskygame.com.pk';
   
-  // Define all images used across the site
+  // Define all images used across the site (paths must match files in /public)
   const images = [
     {
       loc: `${baseUrl}/`,
       images: [
         {
-          loc: `${baseUrl}/3PattiSky.webp`,
+          loc: `${baseUrl}/3-Patti-Sky.webp`,
           title: '3Patti Sky Logo',
           caption: '3Patti Sky - Pakistan Premier Card Gaming Platform',
         },
         {
-          loc: `${baseUrl}/3 Patti Sky.webp`,
+          loc: `${baseUrl}/3-Patti-Sky-logo.webp`,
           title: '3Patti Sky Logo Alternative',
           caption: '3Patti Sky App Logo',
         },
         {
-          loc: `${baseUrl}/card-rummy-game.webp`,
+          loc: `${baseUrl}/3-Patti-Sky-Game.webp`,
           title: '3Patti Sky Game Screenshot 1',
           caption: '3Patti Sky Gaming Interface',
         },
         {
-          loc: `${baseUrl}/card-rummy-games.webp`,
+          loc: `${baseUrl}/3-Patti-Sky-Games.webp`,
           title: '3Patti Sky Game Screenshot 2',
           caption: '3Patti Sky Games Collection',
         },
         {
-          loc: `${baseUrl}/Card-rummy-bonuses.webp`,
+          loc: `${baseUrl}/3-Patti-Sky-Free-Bonus.webp`,
           title: '3Patti Sky Bonuses',
           caption: '3Patti Sky Bonus System',
         },
         {
-          loc: `${baseUrl}/card-rummy-vip-program.webp`,
-          title: '3Patti Sky VIP Program',
-          caption: '3Patti Sky VIP Benefits',
-        },
-        {
-          loc: `${baseUrl}/card-rummy-add-money.webp`,
+          loc: `${baseUrl}/3-Patti-Sky-Deposit.webp`,
           title: '3Patti Sky Add Money',
           caption: '3Patti Sky Deposit System',
         },
         {
-          loc: `${baseUrl}/card-rummy-withdraw-money.webp`,
-          title: '3Patti Sky Withdraw Money',
-          caption: '3Patti Sky Withdrawal System',
+          loc: `${baseUrl}/3-Patti-Sky-Referral-Bonus.webp`,
+          title: '3Patti Sky Referral Bonus',
+          caption: '3Patti Sky Referral Program',
+        },
+        {
+          loc: `${baseUrl}/3-Patti-Sky-Dragon-Tiger.webp`,
+          title: '3Patti Sky Dragon Tiger',
+          caption: '3Patti Sky Dragon vs Tiger Game',
         },
       ],
     },
@@ -54,7 +54,7 @@ export async function GET() {
       loc: `${baseUrl}/download-3patti-sky`,
       images: [
         {
-          loc: `${baseUrl}/3PattiSky.webp`,
+          loc: `${baseUrl}/3-Patti-Sky.webp`,
           title: '3Patti Sky Download Page',
           caption: 'Download 3Patti Sky APK for Android',
         },
@@ -64,7 +64,7 @@ export async function GET() {
       loc: `${baseUrl}/deposit-money-in-3patti-sky`,
       images: [
         {
-          loc: `${baseUrl}/card-rummy-add-money.webp`,
+          loc: `${baseUrl}/3-Patti-Sky-Deposit.webp`,
           title: '3Patti Sky Deposit Guide',
           caption: 'How to Deposit Money in 3Patti Sky',
         },
@@ -74,7 +74,7 @@ export async function GET() {
       loc: `${baseUrl}/withdraw-money-from-3patti-sky`,
       images: [
         {
-          loc: `${baseUrl}/card-rummy-withdraw-money.webp`,
+          loc: `${baseUrl}/3-Patti-Sky.webp`,
           title: '3Patti Sky Withdrawal Guide',
           caption: 'How to Withdraw Money from 3Patti Sky',
         },
@@ -84,7 +84,7 @@ export async function GET() {
       loc: `${baseUrl}/3patti-sky-for-pc`,
       images: [
         {
-          loc: `${baseUrl}/3PattiSky.webp`,
+          loc: `${baseUrl}/3-Patti-Sky.webp`,
           title: '3Patti Sky for PC',
           caption: 'Download 3Patti Sky for PC with Emulator',
         },
@@ -94,7 +94,7 @@ export async function GET() {
       loc: `${baseUrl}/3patti-sky-for-ios`,
       images: [
         {
-          loc: `${baseUrl}/3PattiSky.webp`,
+          loc: `${baseUrl}/3-Patti-Sky.webp`,
           title: '3Patti Sky for iOS',
           caption: 'Download 3Patti Sky for iPhone and iPad',
         },
@@ -104,7 +104,7 @@ export async function GET() {
       loc: `${baseUrl}/about-us`,
       images: [
         {
-          loc: `${baseUrl}/3PattiSky.webp`,
+          loc: `${baseUrl}/3-Patti-Sky.webp`,
           title: '3Patti Sky About Us',
           caption: 'About 3Patti Sky Gaming Platform',
         },
@@ -114,7 +114,7 @@ export async function GET() {
       loc: `${baseUrl}/blog`,
       images: [
         {
-          loc: `${baseUrl}/3PattiSky.webp`,
+          loc: `${baseUrl}/3-Patti-Sky.webp`,
           title: '3Patti Sky Blog',
           caption: '3Patti Sky Gaming News and Guides',
         },
@@ -124,7 +124,7 @@ export async function GET() {
       loc: `${baseUrl}/blog/is-3patti-sky-real-or-fake`,
       images: [
         {
-          loc: `${baseUrl}/3PattiSky.webp`,
+          loc: `${baseUrl}/3-Patti-Sky.webp`,
           title: 'Is 3Patti Sky Real or Fake',
           caption: 'Complete Guide: 3Patti Sky Legitimacy Review',
         },

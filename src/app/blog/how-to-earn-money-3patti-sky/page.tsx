@@ -42,7 +42,7 @@ export default function HowToEarnMoneyPage() {
     "@type": "BlogPosting",
     "headline": "How to Earn Money in 3Patti Sky - Complete Earning Guide 2026",
     "description": "Complete guide on various ways to earn real money in 3Patti Sky.",
-    "image": "https://3pattiskygame.com.pk/3PattiSky.webp",
+    "image": "https://3pattiskygame.com.pk/3-Patti-Sky.webp",
     "author": {
       "@type": "Organization",
       "name": "3Patti Sky",
@@ -53,7 +53,7 @@ export default function HowToEarnMoneyPage() {
       "name": "3Patti Sky",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://3pattiskygame.com.pk/3PattiSky.webp"
+        "url": "https://3pattiskygame.com.pk/3-Patti-Sky.webp"
       }
     },
     "datePublished": "2026-01-05",
@@ -94,7 +94,7 @@ export default function HowToEarnMoneyPage() {
         
         <div className="relative w-full h-64 md:h-96 rounded-xl overflow-hidden mb-8">
           <Image
-            src="/3 Patti Sky Free Bonus.webp"
+            src="/3-Patti-Sky-Free-Bonus.webp"
             alt="How to Earn Money in 3Patti Sky"
             fill
             className="object-cover"

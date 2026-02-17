@@ -44,7 +44,7 @@ export default function ThreePattiSkyForIOSPage() {
     "@type": "TechArticle",
     "headline": "3Patti Sky For iOS Download Latest Version For Free 2026",
     "description": "Complete guide to download and play 3Patti Sky on iOS devices. Learn about features, system requirements, and installation process.",
-    "image": "https://3pattiskygame.com.pk/3patti-sky-logo.webp",
+    "image": "https://3pattiskygame.com.pk/3-Patti-Sky-logo.webp",
     "author": {
       "@type": "Organization",
       "name": "3Patti Sky",
@@ -55,7 +55,7 @@ export default function ThreePattiSkyForIOSPage() {
       "name": "3Patti Sky",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://3pattiskygame.com.pk/3patti-sky-logo.webp"
+        "url": "https://3pattiskygame.com.pk/3-Patti-Sky-logo.webp"
       }
     },
     "datePublished": "2026-01-04",
@@ -103,7 +103,7 @@ export default function ThreePattiSkyForIOSPage() {
         <div className="flex justify-center mb-12">
           <div className="relative" style={{ width: '280px', height: '280px', maxWidth: '100%' }}>
             <Image
-              src="/3PattiSky.webp"
+              src="/3-Patti-Sky.webp"
               alt="3Patti Sky for iOS"
               width={280}
               height={280}
