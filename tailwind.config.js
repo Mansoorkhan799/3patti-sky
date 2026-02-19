@@ -1,7 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
@@ -9,7 +8,10 @@ module.exports = {
     extend: {
       colors: {
         primary: '#06091F',
+        'primary-light': '#0A1029',
+        secondary: '#0A1029',
         accent: '#FFC107',
+        orange: '#FFA500',
       },
     },
   },

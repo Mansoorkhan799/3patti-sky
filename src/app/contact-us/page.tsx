@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import ContactForm from '@/components/ContactForm';
 
 export const metadata: Metadata = {
   title: 'Contact Us - 3Patti Sky | Get Help & Support',
@@ -11,11 +12,13 @@ export const metadata: Metadata = {
     url: 'https://3pattiskygame.com.pk/contact-us',
     siteName: '3Patti Sky',
     type: 'website',
+    images: [{ url: 'https://3pattiskygame.com.pk/3-Patti-Sky.webp', width: 1200, height: 630, alt: '3Patti Sky' }],
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: 'Contact Us - 3Patti Sky',
     description: 'Get in touch with 3Patti Sky support team for any queries or assistance.',
+    images: ['https://3pattiskygame.com.pk/3-Patti-Sky.webp'],
   },
   alternates: {
     canonical: 'https://3pattiskygame.com.pk/contact-us',
@@ -65,6 +68,11 @@ export default function Contact() {
                 </div>
               </div>
             </div>
+          </div>
+
+          {/* Contact Form */}
+          <div className="mb-8">
+            <ContactForm />
           </div>
 
           {/* Additional Help Section */}

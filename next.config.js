@@ -37,16 +37,21 @@ const nextConfig = {
     ];
   },
 
-  // Optimize headers
+  // Optimize headers - avoid long cache for HTML pages; only static assets get immutable cache
   async headers() {
     return [
       {
-        source: '/:path*',
+        source: '/(.*)\\.(webp|ico|png|jpg|jpeg|gif|svg|avif)',
         headers: [
           {
             key: 'Cache-Control',
             value: 'public, max-age=31536000, immutable',
           },
+        ],
+      },
+      {
+        source: '/:path*',
+        headers: [
           {
             key: 'X-DNS-Prefetch-Control',
             value: 'on',

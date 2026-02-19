@@ -111,23 +111,27 @@ export default function RootLayout({
         <link rel="icon" href="/3-Patti-Sky.webp" type="image/webp" sizes="192x192" />
         <link rel="apple-touch-icon" href="/3-Patti-Sky.webp" sizes="180x180" />
         
-        <meta property="og:image" content="/3-Patti-Sky.webp" />
+        <meta property="og:image" content="https://3pattiskygame.com.pk/3-Patti-Sky.webp" />
         
-        {/* Google Analytics */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
-          strategy="lazyOnload"
-        />
-        <Script id="google-analytics" strategy="lazyOnload">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-XXXXXXXXXX', {
-              page_path: window.location.pathname,
-            });
-          `}
-        </Script>
+        {/* Google Analytics - Add your GA4 Measurement ID to NEXT_PUBLIC_GA_ID env var */}
+        {process.env.NEXT_PUBLIC_GA_ID && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}
+              strategy="lazyOnload"
+            />
+            <Script id="google-analytics" strategy="lazyOnload">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}', {
+                  page_path: window.location.pathname,
+                });
+              `}
+            </Script>
+          </>
+        )}
       </head>
       <body
         className="antialiased bg-primary text-white min-h-screen flex flex-col"
@@ -138,9 +142,15 @@ export default function RootLayout({
         }}
         suppressHydrationWarning
       >
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-accent focus:text-primary focus:rounded-md focus:outline-none focus:ring-2 focus:ring-white"
+        >
+          Skip to main content
+        </a>
         <div className="stars-bg fixed inset-0 z-0 opacity-20"></div>
         <Header />
-        <main className="flex-grow relative z-10">
+        <main id="main-content" className="flex-grow relative z-10">
         {children}
         </main>
         <DeferredStyles />
@@ -160,8 +170,8 @@ export default function RootLayout({
               "logo": "https://3pattiskygame.com.pk/3-Patti-Sky.webp",
               "description": "3Patti Sky is Pakistan's premier card gaming platform, offering Teen Patti, Rummy, and many other card games with real cash rewards.",
               "sameAs": [
-                "https://facebook.com/3pattisky",
-                "https://twitter.com/3pattisky"
+                "https://www.facebook.com/people/3-Patti-Sky/61561881890600/",
+                "https://x.com/Teenpattisky"
               ]
             })
           }}

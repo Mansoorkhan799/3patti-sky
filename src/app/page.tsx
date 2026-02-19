@@ -72,7 +72,8 @@ export default function Home() {
           "height": 512
         },
         "sameAs": [
-          "https://www.facebook.com/share/1at8tjJcje/"
+          "https://www.facebook.com/people/3-Patti-Sky/61561881890600/",
+          "https://x.com/Teenpattisky"
         ],
         "contactPoint": {
           "@type": "ContactPoint",
@@ -632,7 +633,7 @@ export default function Home() {
 
         {/* Recharge Rebate */}
         <div className="mb-8">
-          <h3 className="text-xl font-semibold mb-4 text-[#FFA500]">2: Recharge Rebtage</h3>
+          <h3 className="text-xl font-semibold mb-4 text-[#FFA500]">2: Recharge Rebate</h3>
           <p className="text-gray-300 mb-4">3Patti Sky game is also offering huge recharge rebtage bonuses for every player when they deposit amount.</p>
           <div className="overflow-x-auto">
             <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
@@ -657,7 +658,7 @@ export default function Home() {
 
         {/* Big Rebate on Recharge */}
         <div>
-          <h3 className="text-xl font-semibold mb-4 text-[#FFA500]">3: Big Rebtage on Rechare</h3>
+          <h3 className="text-xl font-semibold mb-4 text-[#FFA500]">3: Big Rebate on Recharge</h3>
           <p className="text-gray-300 mb-4">This type of reward is only available for deposit of minimum 3000PKR or more than it. It also depends upon VIP Level with increasing rebtage bonus. It can be calaimed every day.</p>
           <div className="overflow-x-auto">
             <table className="min-w-full divide-y divide-gray-800 rounded-lg overflow-hidden">
@@ -875,7 +876,7 @@ export default function Home() {
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
           <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">How Can We Contact the 3Patti Sky?</h2>
-          <p className="text-gray-300 mb-6">To contact the customer support team of 3 Patti Bule, you can use the given methods:</p>
+          <p className="text-gray-300 mb-6">To contact the customer support team of 3 Patti Sky, you can use the given methods:</p>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-[#0A1029] p-6 rounded-lg">

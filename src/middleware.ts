@@ -20,7 +20,7 @@ export function middleware() {
     `style-src 'self' 'unsafe-inline';` +
     `img-src 'self' data: https: blob:;` +
     `font-src 'self';` +
-    `connect-src 'self' https://www.google-analytics.com;` +
+    `connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com;` +
     `frame-ancestors 'none';`
   );
 

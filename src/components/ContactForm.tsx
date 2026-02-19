@@ -20,27 +20,44 @@ export default function ContactForm() {
     formState: { errors },
   } = useForm<FormData>();
 
-  const onSubmit = (data: FormData) => {
-    // In a real application, this would send the data to your server
-    console.log(data);
-    setFormSubmitted(true);
-    reset();
-    
-    // Reset form status after 5 seconds
-    setTimeout(() => {
-      setFormSubmitted(false);
-    }, 5000);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
+
+  const onSubmit = async (data: FormData) => {
+    setIsSubmitting(true);
+    setSubmitError(null);
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      });
+      const result = await res.json();
+      if (!res.ok) throw new Error(result.error || 'Failed to send');
+      setFormSubmitted(true);
+      reset();
+      setTimeout(() => setFormSubmitted(false), 5000);
+    } catch (err) {
+      setSubmitError(err instanceof Error ? err.message : 'Failed to send message. Please try again.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
     <div className="bg-secondary rounded-lg p-6 md:p-8">
       <h2 className="text-2xl font-bold mb-6 text-white text-center">Send Us a Message</h2>
       
-      {formSubmitted ? (
+      {formSubmitted && (
         <div className="bg-green-900/50 border border-green-700 text-green-100 rounded-lg p-4 mb-6 text-center">
-          <p>Thank you for your message. We'll get back to you soon!</p>
+          <p>Thank you for your message. We&apos;ll get back to you soon!</p>
         </div>
-      ) : null}
+      )}
+      {submitError && (
+        <div className="bg-red-900/50 border border-red-700 text-red-100 rounded-lg p-4 mb-6 text-center">
+          <p>{submitError}</p>
+        </div>
+      )}
       
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
         <div>
@@ -130,9 +147,10 @@ export default function ContactForm() {
         <div className="flex justify-center">
           <button
             type="submit"
-            className="bg-accent hover:bg-accent-hover text-white font-medium py-2 px-6 rounded inline-flex items-center"
+            disabled={isSubmitting}
+            className="bg-accent hover:bg-accent/90 disabled:opacity-50 text-primary font-medium py-2 px-6 rounded inline-flex items-center"
           >
-            <span>Send Message</span>
+            <span>{isSubmitting ? 'Sending...' : 'Send Message'}</span>
             <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
             </svg>

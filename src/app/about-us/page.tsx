@@ -74,7 +74,7 @@ export default function AboutPage() {
               <div className="md:w-2/3">
                 <div className="prose prose-lg max-w-none">
                   <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                    Welcome to <a href="https://www.3pattiskygame.com.pk/" className="text-accent hover:text-accent font-semibold" target="_blank" rel="noopener noreferrer">www.3pattiskygame.com.pk</a>, a trusted platform to provide the latest information about 3patti <Link href="/" className="text-accent hover:underline font-semibold">3Patti Sky</Link>. This is one of the most popular online casino games in Pakistan, having <span className="font-bold text-accent">500K+ users</span>.
+                    Welcome to <a href="https://3pattiskygame.com.pk/" className="text-accent hover:text-accent font-semibold" target="_blank" rel="noopener noreferrer">www.3pattiskygame.com.pk</a>, a trusted platform to provide the latest information about 3patti <Link href="/" className="text-accent hover:underline font-semibold">3Patti Sky</Link>. This is one of the most popular online casino games in Pakistan, having <span className="font-bold text-accent">500K+ users</span>.
                   </p>
                   <p className="text-lg text-gray-300 leading-relaxed">
                     Hundreds of people are playing these wonderful games and earning a handsome amount on a daily or weekly basis.
@@ -118,7 +118,7 @@ export default function AboutPage() {
             "mainEntity": {
               "@type": "Organization",
               "name": "3Patti Sky",
-              "alternateName": "3 Patti 3Patti Sky",
+              "alternateName": "3 Patti Sky",
               "url": "https://3pattiskygame.com.pk",
               "logo": "https://3pattiskygame.com.pk/3-Patti-Sky.webp",
               "description": "3Patti Sky is Pakistan's premier card gaming platform, offering Teen Patti, Rummy, Dragon vs Tiger and more with real cash rewards.",
