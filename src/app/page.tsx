@@ -5,8 +5,8 @@ import { Metadata } from 'next';
 // This additional metadata enhances the page-specific SEO
 export const metadata: Metadata = {
   title: {
-    default: "3Patti Sky Game Download | New Earning App in Pakistan 2026",
-    template: "%s | 3Patti Sky"
+    default: "3 Patti Sky Pakistan v1.199 Free Download Official APK",
+    template: "%s | 3 Patti Sky"
   },
   description: "Download 3Patti Sky APK, Pakistan's premier card game platform. Play Teen Patti, Rummy, Dragon vs Tiger & more. Win real cash with JazzCash & EasyPaisa. Join 600K+ players!",
   keywords: [
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     "best earning app Pakistan"
   ],
   openGraph: {
-    title: '3Patti Sky Game Download | New Earning App in Pakistan 2026',
+    title: '3 Patti Sky Pakistan v1.199 Free Download Official APK',
     description: 'Join 600K+ players on Pakistan\'s premier card game platform. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!',
     images: [
       {
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: '3Patti Sky Game Download | New Earning App in Pakistan 2026',
+    title: '3 Patti Sky Pakistan v1.199 Free Download Official APK',
     description: 'Join 600K+ players on Pakistan\'s premier card game platform. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!',
     images: ['https://3pattiskygame.com.pk/3-Patti-Sky-logo.webp']
   }
@@ -58,7 +58,15 @@ export default function Home() {
         "url": "https://3pattiskygame.com.pk/",
         "name": "3Patti Sky",
         "description": "Pakistan's premier card game platform with Teen Patti, Rummy, Dragon Tiger and more",
-        "inLanguage": "en-US"
+        "inLanguage": "en-US",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://3pattiskygame.com.pk/blog?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
       },
       {
         "@type": "Organization",
@@ -121,6 +129,25 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              { "@type": "Question", "name": "Can users play 3 Patti Sky without depositing money?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, you can play games in 3 Patti Sky by using the free bonuses like the Welcome Bonus and Referral Commission." } },
+              { "@type": "Question", "name": "How do users contact customer support?", "acceptedAnswer": { "@type": "Answer", "text": "You can contact the 3 Patti Sky support team through live chat, WhatsApp, or other social media platforms." } },
+              { "@type": "Question", "name": "What makes 3 Patti Sky different from other card games?", "acceptedAnswer": { "@type": "Answer", "text": "Its simple design, fast transactions, and exciting games make this platform more enjoyable than other apps." } },
+              { "@type": "Question", "name": "Is 3 Patti Sky safe and legal to use?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, it is safe to use because this makes sure that your data privacy stays secure. However, the legality depends on your local laws, so always check your region's rules." } },
+              { "@type": "Question", "name": "Can users lose money while playing?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, this app is involved with real money, so you might lose some amount if you do not play the games carefully. So, always play wisely and set a limit while playing." } },
+              { "@type": "Question", "name": "Is it possible to change the language of 3 Patti Sky?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, it is possible because this app supports multiple languages, so you can change the language from the settings menu easily." } },
+              { "@type": "Question", "name": "How do referral rewards work?", "acceptedAnswer": { "@type": "Answer", "text": "When you share your referral link with others, or when someone joins this app through your link, you can receive a commission." } },
+              { "@type": "Question", "name": "Is 3 Patti Sky available on iPhone (iOS)?", "acceptedAnswer": { "@type": "Answer", "text": "This app is mainly available for Android devices, but you can also check the official website or store for updates about iOS availability." } }
+            ]
+          })
+        }}
+      />
       
       {/* Hero Section with improved spacing */}
       <section className="py-8 md:py-16 px-4 md:px-8 max-w-7xl mx-auto">
@@ -129,12 +156,12 @@ export default function Home() {
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
                 <Link href="/" className="hover:text-[#FFA500] transition-colors">
-                  <span className="text-white">3Patti Sky Game Download</span>
+                  <span className="text-white">3 Patti Sky</span>
                 </Link>
               </h1>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold">
-                <span className="text-[#FFA500]">New Earning App</span>{' '}
-                <span className="text-white">in Pakistan 2026</span>
+                <span className="text-[#FFA500]">Pakistan&apos;s Most Trusted</span>{' '}
+                <span className="text-white">3 Patti Gaming Platform 2026</span>
               </h2>
             </div>
             
@@ -872,6 +899,43 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Latest Guides & Blog - Internal Linking */}
+      <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
+        <div className="bg-secondary rounded-xl p-8">
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-accent">Latest Guides &amp; Blog</h2>
+          <p className="text-gray-300 mb-6">Explore our comprehensive guides to learn everything about 3Patti Sky:</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <Link href="/blog/is-3patti-sky-real-or-fake" className="bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/80 transition-colors block">
+              <h3 className="text-white font-semibold mb-2">Is 3Patti Sky Real or Fake?</h3>
+              <p className="text-gray-400 text-sm">Discover the truth about legitimacy and payment methods</p>
+            </Link>
+            <Link href="/blog/how-to-play-3patti-sky" className="bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/80 transition-colors block">
+              <h3 className="text-white font-semibold mb-2">How to Play 3Patti Sky</h3>
+              <p className="text-gray-400 text-sm">Complete beginner guide with rules and tips</p>
+            </Link>
+            <Link href="/blog/how-to-earn-money-3patti-sky" className="bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/80 transition-colors block">
+              <h3 className="text-white font-semibold mb-2">How to Earn Money in 3Patti Sky</h3>
+              <p className="text-gray-400 text-sm">Earning methods, bonuses, and withdrawal guide</p>
+            </Link>
+            <Link href="/blog/how-to-create-account-login" className="bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/80 transition-colors block">
+              <h3 className="text-white font-semibold mb-2">How to Create Account and Login</h3>
+              <p className="text-gray-400 text-sm">Step-by-step registration and login guide</p>
+            </Link>
+            <Link href="/blog/payment-methods-jazzcash-easypaisa" className="bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/80 transition-colors block">
+              <h3 className="text-white font-semibold mb-2">Payment Methods - JazzCash &amp; EasyPaisa</h3>
+              <p className="text-gray-400 text-sm">Complete guide on deposits and withdrawals</p>
+            </Link>
+            <Link href="/blog/tips-to-win-3patti-sky" className="bg-[#0A1029] p-4 rounded-lg hover:bg-[#0A1029]/80 transition-colors block">
+              <h3 className="text-white font-semibold mb-2">Tips to Win in 3Patti Sky</h3>
+              <p className="text-gray-400 text-sm">Expert strategies and winning techniques</p>
+            </Link>
+          </div>
+          <Link href="/blog" className="inline-block mt-6 text-accent hover:underline font-semibold">
+            View All Blog Posts →
+          </Link>
+        </div>
+      </section>
+
       {/* Contact Support Section */}
       <section className="py-12 px-4 md:px-8 max-w-7xl mx-auto">
         <div className="bg-secondary rounded-xl p-8">
@@ -958,7 +1022,7 @@ export default function Home() {
         <div className="bg-secondary rounded-xl p-8">
         <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Frequently Asked Questions</h2>
         <div className="space-y-4">
-          <details className="group bg-[#0a1029]/50 rounded-xl">
+          <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700">
             <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
               Can users play 3 Patti Sky without depositing money?
               <span className="transition group-open:rotate-180">
@@ -972,7 +1036,7 @@ export default function Home() {
             </div>
           </details>
 
-          <details className="group bg-[#0a1029]/50 rounded-xl">
+          <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700">
             <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
               How do users contact customer support?
               <span className="transition group-open:rotate-180">
@@ -986,7 +1050,7 @@ export default function Home() {
             </div>
           </details>
 
-          <details className="group bg-[#0a1029]/50 rounded-xl">
+          <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700">
             <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
               What makes 3 Patti Sky different from other card games?
               <span className="transition group-open:rotate-180">
@@ -1000,7 +1064,7 @@ export default function Home() {
             </div>
           </details>
 
-          <details className="group bg-[#0a1029]/50 rounded-xl">
+          <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700">
             <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
               Is 3 Patti Sky safe and legal to use?
               <span className="transition group-open:rotate-180">
@@ -1014,7 +1078,7 @@ export default function Home() {
             </div>
           </details>
 
-          <details className="group bg-[#0a1029]/50 rounded-xl">
+          <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700">
             <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
               Can users lose money while playing?
               <span className="transition group-open:rotate-180">
@@ -1028,7 +1092,7 @@ export default function Home() {
             </div>
           </details>
 
-          <details className="group bg-[#0a1029]/50 rounded-xl">
+          <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700">
             <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
               Is it possible to change the language of 3 Patti Sky?
               <span className="transition group-open:rotate-180">
@@ -1042,7 +1106,7 @@ export default function Home() {
             </div>
           </details>
 
-          <details className="group bg-[#0a1029]/50 rounded-xl">
+          <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700">
             <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
               How do referral rewards work?
               <span className="transition group-open:rotate-180">
@@ -1056,7 +1120,7 @@ export default function Home() {
             </div>
           </details>
 
-          <details className="group bg-[#0a1029]/50 rounded-xl">
+          <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700">
             <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
               Is 3 Patti Sky available on iPhone (iOS)?
               <span className="transition group-open:rotate-180">

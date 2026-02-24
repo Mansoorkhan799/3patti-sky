@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { Resend } from 'resend';
 
 type ContactBody = {
   name: string;
@@ -6,6 +7,11 @@ type ContactBody = {
   subject: string;
   message: string;
 };
+
+const resend = process.env.RESEND_API_KEY ? new Resend(process.env.RESEND_API_KEY) : null;
+const CONTACT_EMAIL = process.env.CONTACT_EMAIL || 'support@3pattiskygame.com.pk';
+// Use RESEND_FROM for verified domain (e.g. contact@3pattiskygame.com.pk). Default uses Resend test domain.
+const FROM_EMAIL = process.env.RESEND_FROM || '3Patti Sky Contact <onboarding@resend.dev>';
 
 export async function POST(request: Request) {
   try {
@@ -28,15 +34,59 @@ export async function POST(request: Request) {
       );
     }
 
-    // TODO: Add email sending (e.g., Nodemailer, Resend, SendGrid)
-    // For now, log the submission - you can connect to your email service here
-    console.log('Contact form submission:', { name, email, subject, message });
+    // Sanitize input length
+    if (name.length > 100 || subject.length > 200 || message.length > 5000) {
+      return NextResponse.json(
+        { error: 'Input exceeds maximum length' },
+        { status: 400 }
+      );
+    }
+
+    if (resend) {
+      const { error } = await resend.emails.send({
+        from: FROM_EMAIL,
+        to: CONTACT_EMAIL,
+        replyTo: email,
+        subject: `[3Patti Sky] ${subject}`,
+        html: `
+          <h2>New Contact Form Submission</h2>
+          <p><strong>Name:</strong> ${escapeHtml(name)}</p>
+          <p><strong>Email:</strong> ${escapeHtml(email)}</p>
+          <p><strong>Subject:</strong> ${escapeHtml(subject)}</p>
+          <h3>Message:</h3>
+          <p>${escapeHtml(message).replace(/\n/g, '<br>')}</p>
+        `,
+      });
+
+      if (error) {
+        console.error('Resend error:', error);
+        return NextResponse.json(
+          { error: 'Failed to send email. Please try again later.' },
+          { status: 500 }
+        );
+      }
+    } else {
+      // Fallback when RESEND_API_KEY is not configured (e.g. local dev)
+      console.log('Contact form submission (email not sent - RESEND_API_KEY not set):', { name, email, subject });
+    }
 
     return NextResponse.json({ success: true });
-  } catch {
+  } catch (err) {
+    console.error('Contact API error:', err);
     return NextResponse.json(
       { error: 'Failed to process request' },
       { status: 500 }
     );
   }
+}
+
+function escapeHtml(text: string): string {
+  const map: Record<string, string> = {
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#039;',
+  };
+  return text.replace(/[&<>"']/g, (m) => map[m]);
 }

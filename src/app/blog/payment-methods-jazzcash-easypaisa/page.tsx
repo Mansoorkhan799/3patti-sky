@@ -74,7 +74,37 @@ export default function PaymentMethodsPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://3pattiskygame.com.pk" },
+              { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://3pattiskygame.com.pk/blog" },
+              { "@type": "ListItem", "position": 3, "name": "Payment Methods Guide", "item": "https://3pattiskygame.com.pk/blog/payment-methods-jazzcash-easypaisa" }
+            ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              { "@type": "Question", "name": "What is the minimum deposit amount?", "acceptedAnswer": { "@type": "Answer", "text": "The minimum deposit amount is typically Rs. 100, but this may vary. Check the app for current limits." } },
+              { "@type": "Question", "name": "What is the minimum withdrawal amount?", "acceptedAnswer": { "@type": "Answer", "text": "The minimum withdrawal amount is usually Rs. 100-500. Check the withdrawal section in the app for exact limits." } },
+              { "@type": "Question", "name": "How long do withdrawals take?", "acceptedAnswer": { "@type": "Answer", "text": "Withdrawals are typically processed within 24 hours. However, it may take longer during weekends or holidays." } },
+              { "@type": "Question", "name": "Can I use both JazzCash and EasyPaisa?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, you can use both payment methods. You can deposit with one and withdraw to the other, or use the same method for both." } },
+              { "@type": "Question", "name": "Are there any transaction fees?", "acceptedAnswer": { "@type": "Answer", "text": "3Patti Sky doesn't charge transaction fees, but JazzCash and EasyPaisa may have their own fees. Check with your payment provider." } },
+              { "@type": "Question", "name": "What if my withdrawal is delayed?", "acceptedAnswer": { "@type": "Answer", "text": "If your withdrawal takes longer than 24 hours, contact 3Patti Sky support with your transaction ID. They will help resolve the issue." } }
+            ]
+          })
+        }}
+      />
       <nav className="mb-8 text-sm">
         <Link href="/" className="text-[#0ea5e9] hover:underline">Home</Link>
         <span className="text-gray-500 mx-2">/</span>

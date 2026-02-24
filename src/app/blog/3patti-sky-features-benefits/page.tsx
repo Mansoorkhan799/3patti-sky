@@ -73,7 +73,35 @@ export default function FeaturesBenefitsPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://3pattiskygame.com.pk" },
+              { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://3pattiskygame.com.pk/blog" },
+              { "@type": "ListItem", "position": 3, "name": "Features and Benefits", "item": "https://3pattiskygame.com.pk/blog/3patti-sky-features-benefits" }
+            ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              { "@type": "Question", "name": "Is 3Patti Sky free to download?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, the 3Patti Sky app is completely free to download. You can also play free games, but to play for real money, you need to deposit funds." } },
+              { "@type": "Question", "name": "What makes 3Patti Sky different from other apps?", "acceptedAnswer": { "@type": "Answer", "text": "3Patti Sky offers a wide variety of games, generous bonuses, easy payment methods, and excellent customer support. The platform is specifically designed for Pakistani players." } },
+              { "@type": "Question", "name": "Can I play without internet?", "acceptedAnswer": { "@type": "Answer", "text": "No, you need an active internet connection to play games on 3Patti Sky as it's an online gaming platform." } },
+              { "@type": "Question", "name": "Is my money safe in 3Patti Sky?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, 3Patti Sky uses secure payment methods and encryption to protect your money and personal information. All transactions are processed through trusted payment gateways." } }
+            ]
+          })
+        }}
+      />
       <nav className="mb-8 text-sm">
         <Link href="/" className="text-[#0ea5e9] hover:underline">Home</Link>
         <span className="text-gray-500 mx-2">/</span>

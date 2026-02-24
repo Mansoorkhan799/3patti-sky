@@ -73,7 +73,56 @@ export default function HowToCreateAccountLoginPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://3pattiskygame.com.pk" },
+              { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://3pattiskygame.com.pk/blog" },
+              { "@type": "ListItem", "position": 3, "name": "How to Create Account and Login", "item": "https://3pattiskygame.com.pk/blog/how-to-create-account-login" }
+            ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "HowTo",
+            "name": "How to Create Account and Login in 3Patti Sky",
+            "description": "Step-by-step guide on creating an account and logging in to 3Patti Sky app",
+            "step": [
+              { "@type": "HowToStep", "name": "Download the App", "text": "Download 3Patti Sky from the official website." },
+              { "@type": "HowToStep", "name": "Click Register", "text": "Open the app and click on Register or Sign Up." },
+              { "@type": "HowToStep", "name": "Enter Mobile Number", "text": "Enter your mobile number and create a password." },
+              { "@type": "HowToStep", "name": "Verify OTP", "text": "Verify your number with the OTP sent to your phone." },
+              { "@type": "HowToStep", "name": "Complete Profile", "text": "Complete your profile setup and set security questions for account recovery." },
+              { "@type": "HowToStep", "name": "Login", "text": "Use your mobile number and password to login from any device." }
+            ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              { "@type": "Question", "name": "Can I use the same mobile number for multiple accounts?", "acceptedAnswer": { "@type": "Answer", "text": "No, each mobile number can only be used to create one 3Patti Sky account. This is for security and to prevent fraud." } },
+              { "@type": "Question", "name": "What if I don't receive the OTP?", "acceptedAnswer": { "@type": "Answer", "text": "Wait for 1-2 minutes, then click Resend OTP. Make sure your phone has network coverage and check your SMS inbox. If the problem persists, contact customer support." } },
+              { "@type": "Question", "name": "Can I change my mobile number after registration?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, you can change your mobile number by contacting customer support. You'll need to verify your identity and provide a reason for the change." } },
+              { "@type": "Question", "name": "Is it safe to create an account on 3Patti Sky?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, 3Patti Sky uses secure encryption to protect your personal information. However, always download from official sources and never share your password with anyone." } },
+              { "@type": "Question", "name": "Do I need to provide my ID card for registration?", "acceptedAnswer": { "@type": "Answer", "text": "No, basic registration only requires your mobile number. However, you may need to provide ID verification for withdrawals or if requested by support for security purposes." } },
+              { "@type": "Question", "name": "Can I login from multiple devices?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, you can login from multiple devices using the same account. However, for security reasons, you may be logged out from one device when you login from another." } }
+            ]
+          })
+        }}
+      />
       <nav className="mb-8 text-sm">
         <Link href="/" className="text-[#0ea5e9] hover:underline">Home</Link>
         <span className="text-gray-500 mx-2">/</span>

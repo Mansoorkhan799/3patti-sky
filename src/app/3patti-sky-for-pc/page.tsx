@@ -82,6 +82,20 @@ export default function ThreePattiSkyForPCPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              { "@type": "Question", "name": "Is an emulator safe to use on a PC?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Emulators are generally safe if you download them from official websites." } },
+              { "@type": "Question", "name": "Why is the APK not installed on my device?", "acceptedAnswer": { "@type": "Answer", "text": "The APK may be corrupted, so try reinstalling the app. It could be due to the Emulator you used or to insufficient storage." } },
+              { "@type": "Question", "name": "Which emulator is best for 3Patti Sky?", "acceptedAnswer": { "@type": "Answer", "text": "BluStacks is the best choice because it gives smooth performance and stability. You can use an LD player if you have a low-end PC." } }
+            ]
+          })
+        }}
+      />
       
       {/* Hero Section */}
       <section className="py-8 md:py-16 px-4 md:px-8 max-w-7xl mx-auto">
@@ -397,7 +411,7 @@ export default function ThreePattiSkyForPCPage() {
         <div className="bg-secondary rounded-xl p-8">
           <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Frequently Asked Questions</h2>
           <div className="space-y-4">
-            <details className="group bg-[#0a1029]/50 rounded-xl">
+            <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700">
               <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
                 Is an emulator safe to use on a PC?
                 <span className="transition group-open:rotate-180">
@@ -411,7 +425,7 @@ export default function ThreePattiSkyForPCPage() {
               </div>
             </details>
 
-            <details className="group bg-[#0a1029]/50 rounded-xl">
+            <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700">
               <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
                 Why is the APK not installed on my device?
                 <span className="transition group-open:rotate-180">
@@ -425,7 +439,7 @@ export default function ThreePattiSkyForPCPage() {
               </div>
             </details>
 
-            <details className="group bg-[#0a1029]/50 rounded-xl">
+            <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700">
               <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
                 Which emulator is best for 3Patti Sky?
                 <span className="transition group-open:rotate-180">

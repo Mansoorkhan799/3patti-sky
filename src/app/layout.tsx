@@ -19,8 +19,8 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL('https://3pattiskygame.com.pk'),
   title: {
-    default: "3Patti Sky Game Download | New Earning App in Pakistan 2026",
-    template: "%s | 3Patti Sky"
+    default: "3 Patti Sky Pakistan v1.199 Free Download Official APK",
+    template: "%s | 3 Patti Sky"
   },
   description: "Download 3Patti Sky APK, Pakistan's premier card game platform. Play Teen Patti, Rummy, Dragon vs Tiger & more. Win real cash with JazzCash & EasyPaisa. Join 600K+ players!",
   keywords: [
@@ -72,7 +72,7 @@ export const metadata: Metadata = {
     canonical: "https://3pattiskygame.com.pk",
   },
   openGraph: {
-    title: "3Patti Sky Game Download | New Earning App in Pakistan 2026",
+    title: "3 Patti Sky Pakistan v1.199 Free Download Official APK",
     description: "Join 600K+ players on Pakistan's premier card game platform. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!",
     url: "https://3pattiskygame.com.pk",
     siteName: "3Patti Sky",
@@ -81,7 +81,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "3Patti Sky Game Download | New Earning App in Pakistan 2026",
+    title: "3 Patti Sky Pakistan v1.199 Free Download Official APK",
     description: "Join 600K+ players on Pakistan's premier card game platform. Play Teen Patti, Rummy & more. Earn real money with JazzCash & EasyPaisa. Download now!",
     creator: "@3pattisky",
   },

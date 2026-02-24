@@ -73,7 +73,53 @@ export default function HowToPlayPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://3pattiskygame.com.pk" },
+              { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://3pattiskygame.com.pk/blog" },
+              { "@type": "ListItem", "position": 3, "name": "How to Play 3Patti Sky", "item": "https://3pattiskygame.com.pk/blog/how-to-play-3patti-sky" }
+            ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "HowTo",
+            "name": "How to Play 3Patti Sky - Complete Beginner Guide",
+            "description": "Step-by-step guide to download, setup, and play 3Patti Sky including Teen Patti, Dragon Tiger, and Andar Bahar",
+            "step": [
+              { "@type": "HowToStep", "name": "Download the App", "text": "Visit the official 3Patti Sky website or download from the trusted source. Click on the download button to get the APK file." },
+              { "@type": "HowToStep", "name": "Install the App", "text": "Enable Install from Unknown Sources in your Android settings. Install the APK file on your device." },
+              { "@type": "HowToStep", "name": "Create Your Account", "text": "Open the 3Patti Sky app after installation. Click on Register or Sign Up. Enter your mobile number and create a password. Verify your number with the OTP sent to your phone. Complete your profile setup." },
+              { "@type": "HowToStep", "name": "Play Teen Patti", "text": "Each player receives 3 cards face down. The goal is to have the best 3-card hand. Players can bet, call, or fold during each round. The player with the highest hand wins the pot." },
+              { "@type": "HowToStep", "name": "Withdraw Winnings", "text": "You can withdraw your winnings through JazzCash or EasyPaisa. Go to the withdrawal section, enter the amount, and follow the instructions. Withdrawals are usually processed within 24 hours." }
+            ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              { "@type": "Question", "name": "Can I play 3Patti Sky for free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, 3Patti Sky offers free games and practice modes where you can play without real money. However, to earn real cash, you need to play with real money bets." } },
+              { "@type": "Question", "name": "What is the minimum bet amount?", "acceptedAnswer": { "@type": "Answer", "text": "The minimum bet amount varies by game and table. Generally, you can start with as low as Rs. 10-20 per bet." } },
+              { "@type": "Question", "name": "How do I withdraw my winnings?", "acceptedAnswer": { "@type": "Answer", "text": "You can withdraw your winnings through JazzCash or EasyPaisa. Go to the withdrawal section, enter the amount, and follow the instructions. Withdrawals are usually processed within 24 hours." } },
+              { "@type": "Question", "name": "Is 3Patti Sky safe to play?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, 3Patti Sky uses secure payment methods and encryption to protect your personal and financial information. Always download from official sources." } }
+            ]
+          })
+        }}
+      />
       <nav className="mb-8 text-sm">
         <Link href="/" className="text-[#0ea5e9] hover:underline">Home</Link>
         <span className="text-gray-500 mx-2">/</span>

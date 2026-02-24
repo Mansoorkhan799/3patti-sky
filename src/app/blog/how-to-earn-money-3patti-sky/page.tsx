@@ -73,7 +73,53 @@ export default function HowToEarnMoneyPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://3pattiskygame.com.pk" },
+              { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://3pattiskygame.com.pk/blog" },
+              { "@type": "ListItem", "position": 3, "name": "How to Earn Money in 3Patti Sky", "item": "https://3pattiskygame.com.pk/blog/how-to-earn-money-3patti-sky" }
+            ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "HowTo",
+            "name": "How to Earn Money in 3Patti Sky",
+            "description": "Complete guide on earning real money through 3Patti Sky games, bonuses, referral program, and withdrawal process",
+            "step": [
+              { "@type": "HowToStep", "name": "Download and Register", "text": "Download 3Patti Sky from the official website and create your account with mobile number verification." },
+              { "@type": "HowToStep", "name": "Deposit Funds", "text": "Add money to your account using JazzCash or EasyPaisa to start playing with real money." },
+              { "@type": "HowToStep", "name": "Play Games", "text": "Play Teen Patti, Dragon Tiger, or other card games. Your earnings depend on skill level, bet amount, and gameplay." },
+              { "@type": "HowToStep", "name": "Use Bonuses", "text": "Earn through referral bonuses, daily login bonuses, and free chips. Share your referral link to earn commission." },
+              { "@type": "HowToStep", "name": "Withdraw Earnings", "text": "Withdraw your winnings through JazzCash or EasyPaisa. Minimum withdrawal is typically Rs. 100-500. Processing usually takes within 24 hours." }
+            ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              { "@type": "Question", "name": "How much can I earn in 3Patti Sky?", "acceptedAnswer": { "@type": "Answer", "text": "Your earnings depend on your skill level, the amount you bet, and how often you play. Some players earn a few hundred rupees daily, while skilled players can earn significantly more." } },
+              { "@type": "Question", "name": "Is there a minimum withdrawal amount?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, there's usually a minimum withdrawal amount (typically Rs. 100-500). Check the app for current limits." } },
+              { "@type": "Question", "name": "How long does withdrawal take?", "acceptedAnswer": { "@type": "Answer", "text": "Withdrawals are typically processed within 24 hours. However, it may take longer during weekends or holidays." } },
+              { "@type": "Question", "name": "Can I earn without depositing money?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, you can earn through referral bonuses, daily login bonuses, and free chips. However, to play games and win money, you'll need to deposit funds." } }
+            ]
+          })
+        }}
+      />
       <nav className="mb-8 text-sm">
         <Link href="/" className="text-[#0ea5e9] hover:underline">Home</Link>
         <span className="text-gray-500 mx-2">/</span>

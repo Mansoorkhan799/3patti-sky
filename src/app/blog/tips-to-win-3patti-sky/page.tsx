@@ -73,7 +73,35 @@ export default function TipsToWinPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://3pattiskygame.com.pk" },
+              { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://3pattiskygame.com.pk/blog" },
+              { "@type": "ListItem", "position": 3, "name": "Tips to Win in 3Patti Sky", "item": "https://3pattiskygame.com.pk/blog/tips-to-win-3patti-sky" }
+            ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              { "@type": "Question", "name": "What's the best strategy for beginners?", "acceptedAnswer": { "@type": "Answer", "text": "Start with tight-aggressive play: only play strong hands, but bet confidently when you do. Focus on learning hand rankings and basic betting patterns before trying advanced strategies." } },
+              { "@type": "Question", "name": "How much should I bet per hand?", "acceptedAnswer": { "@type": "Answer", "text": "As a general rule, never bet more than 5% of your total bankroll on a single hand. This ensures you can play many hands and recover from losses." } },
+              { "@type": "Question", "name": "Is it better to play aggressively or conservatively?", "acceptedAnswer": { "@type": "Answer", "text": "A balanced approach works best. Play conservatively with weak hands and aggressively with strong hands. Adapt your style based on the table dynamics." } },
+              { "@type": "Question", "name": "Can I win consistently in 3Patti Sky?", "acceptedAnswer": { "@type": "Answer", "text": "While card games involve luck, skilled players who follow proper strategies and bankroll management can improve their winning percentage significantly. However, there's no guarantee of consistent wins." } }
+            ]
+          })
+        }}
+      />
       <nav className="mb-8 text-sm">
         <Link href="/" className="text-[#0ea5e9] hover:underline">Home</Link>
         <span className="text-gray-500 mx-2">/</span>

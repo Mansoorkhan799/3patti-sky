@@ -304,7 +304,22 @@ export default function DepositMoneyPage() {
         </div>
       </section>
 
-      {/* Structured Data */}
+      {/* FAQ Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              { "@type": "Question", "name": "How can we add money to our 3Patti Sky account?", "acceptedAnswer": { "@type": "Answer", "text": "You can add money to your 3Patti Sky account by opening the app, selecting the shop option, choosing a payment method and amount, confirming the deposit, and approving the payment request." } },
+              { "@type": "Question", "name": "Is adding funds to 3Patti Sky secure?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, it is safe to add funds to 3Patti Sky, as it uses a modern security system to protect your personal data and funds." } },
+              { "@type": "Question", "name": "Which payment methods are available on 3Patti Sky?", "acceptedAnswer": { "@type": "Answer", "text": "3Patti Sky provides two payment methods, including Easypaisa and Jazzcash, that are secure and authentic." } }
+            ]
+          })
+        }}
+      />
+      {/* HowTo Structured Data */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

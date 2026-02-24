@@ -81,6 +81,34 @@ export default function PattiSkyRealOrFakePage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://3pattiskygame.com.pk" },
+              { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://3pattiskygame.com.pk/blog" },
+              { "@type": "ListItem", "position": 3, "name": "Is 3Patti Sky Real or Fake?", "item": "https://3pattiskygame.com.pk/blog/is-3patti-sky-real-or-fake" }
+            ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              { "@type": "Question", "name": "Does the 3Patti Sky app actually pay real money?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, the 3Patti Sky app pays real money, so you can easily withdraw your earnings to your account through JazzCash, EasyPaisa, or bank transfer." } },
+              { "@type": "Question", "name": "What are the tips for using 3Patti Sky safely?", "acceptedAnswer": { "@type": "Answer", "text": "Make sure you have downloaded the 3Patti Sky app from the official site (3pattiskygame.com.pk) to earn real money and use strong passwords to protect your account from hackers. Never share your login credentials with anyone." } },
+              { "@type": "Question", "name": "What are the signs that 3Patti Sky is not fake?", "acceptedAnswer": { "@type": "Answer", "text": "If your app doesn't have customer support, a poor-quality UI, no updates, or withdrawal options that aren't clear, it's fake. The real 3Patti Sky has 24/7 customer support, regular updates, clear withdrawal process, and positive user reviews. Always verify by reading reviews and downloading from the official website." } }
+            ]
+          })
+        }}
+      />
       {/* Breadcrumb */}
       <nav className="mb-8 text-sm">
         <Link href="/" className="text-[#0ea5e9] hover:underline">Home</Link>
@@ -324,7 +352,7 @@ export default function PattiSkyRealOrFakePage() {
           <div className="bg-secondary rounded-xl p-6 md:p-8">
             <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Frequently Asked Questions</h2>
             <div className="space-y-4">
-              <details className="group bg-[#0a1029]/50 rounded-xl">
+              <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700">
                 <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
                   Does the 3Patti Sky app actually pay real money?
                   <span className="transition group-open:rotate-180">
@@ -338,7 +366,7 @@ export default function PattiSkyRealOrFakePage() {
                 </div>
               </details>
 
-              <details className="group bg-[#0a1029]/50 rounded-xl">
+              <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700">
                 <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
                   What are the tips for using 3Patti Sky safely?
                   <span className="transition group-open:rotate-180">
@@ -352,7 +380,7 @@ export default function PattiSkyRealOrFakePage() {
                 </div>
               </details>
 
-              <details className="group bg-[#0a1029]/50 rounded-xl">
+              <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700">
                 <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
                   What are the signs that 3Patti Sky is not fake?
                   <span className="transition group-open:rotate-180">

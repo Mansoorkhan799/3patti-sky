@@ -82,6 +82,20 @@ export default function ThreePattiSkyForIOSPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              { "@type": "Question", "name": "Is it free to download and install 3Patti Sky on iOS?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, 3Patti Sky is free to download and install on iOS because you do not need to pay to download or install." } },
+              { "@type": "Question", "name": "Is 3Patti Sky secure to play on iOS devices?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, 3Patti Sky is safe to play on iOS devices, as it uses a modern security system to protect your account and funds. iOS devices also offer strong security to protect your 3Patti Sky account." } },
+              { "@type": "Question", "name": "Is 3Patti Sky a legit game to earn real money?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, 3Patti Sky is a legit game for earning real money because it pays out to all users without excuses." } }
+            ]
+          })
+        }}
+      />
       
       {/* Hero Section */}
       <section className="py-8 md:py-16 px-4 md:px-8 max-w-7xl mx-auto">
@@ -328,7 +342,7 @@ export default function ThreePattiSkyForIOSPage() {
         <div className="bg-secondary rounded-xl p-8">
           <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Frequently Asked Questions</h2>
           <div className="space-y-4">
-            <details className="group bg-[#0a1029]/50 rounded-xl">
+            <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700">
               <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
                 Is it free to download and install 3Patti Sky on iOS?
                 <span className="transition group-open:rotate-180">
@@ -342,7 +356,7 @@ export default function ThreePattiSkyForIOSPage() {
               </div>
             </details>
 
-            <details className="group bg-[#0a1029]/50 rounded-xl">
+            <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700">
               <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
                 Is 3Patti Sky secure to play on iOS devices?
                 <span className="transition group-open:rotate-180">
@@ -356,7 +370,7 @@ export default function ThreePattiSkyForIOSPage() {
               </div>
             </details>
 
-            <details className="group bg-[#0a1029]/50 rounded-xl">
+            <details className="group bg-[#0a1029]/50 rounded-xl border border-gray-700">
               <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
                 Is 3Patti Sky a legit game to earn real money?
                 <span className="transition group-open:rotate-180">

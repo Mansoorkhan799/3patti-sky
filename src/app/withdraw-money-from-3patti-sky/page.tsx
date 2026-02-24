@@ -334,7 +334,22 @@ export default function WithdrawMoneyPage() {
         </div>
       </section>
 
-      {/* Structured Data */}
+      {/* FAQ Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              { "@type": "Question", "name": "What is the minimum amount that we can withdraw from the 3Patti Sky Game?", "acceptedAnswer": { "@type": "Answer", "text": "You can easily withdraw a minimum of Rs 100 from your 3Patti Sky account, as it supports withdrawals of that amount." } },
+              { "@type": "Question", "name": "How long does 3Patti Sky take to send withdrawals?", "acceptedAnswer": { "@type": "Answer", "text": "3Patti Sky usually processes withdrawals in 3 to 24 hours. It may take longer due to some issues." } },
+              { "@type": "Question", "name": "What should we do if our payout fails on 3Patti Sky?", "acceptedAnswer": { "@type": "Answer", "text": "If your withdrawal fails on 3Patti Sky, contact its customer support team to approve your withdrawal." } }
+            ]
+          })
+        }}
+      />
+      {/* HowTo Structured Data */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

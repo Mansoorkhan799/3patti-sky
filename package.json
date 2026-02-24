@@ -13,7 +13,8 @@
     "next": "^15.5.9",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-hook-form": "^7.58.1"
+    "react-hook-form": "^7.58.1",
+    "resend": "^6.9.2"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
