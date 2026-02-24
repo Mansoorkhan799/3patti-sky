@@ -98,11 +98,9 @@ svg {
   pointer-events: none;
 }
 
-/* Prevent footer layout shift - reserve space and isolate layout */
+/* Prevent footer layout shift - isolate layout without content-visibility (which can cause CLS) */
 footer {
   contain: layout style;
-  content-visibility: auto;
-  contain-intrinsic-block-size: 450px;
 }
 
 /* Optimize font loading to prevent CLS */

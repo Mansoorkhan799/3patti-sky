@@ -13,12 +13,12 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <a href="https://www.facebook.com/people/3-Patti-Sky/61561881890600/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-                <svg className="w-6 h-6 text-gray-400 hover:text-accent transition-colors" fill="currentColor" viewBox="0 0 24 24">
+                <svg className="w-6 h-6 text-gray-400 hover:text-accent transition-colors shrink-0" fill="currentColor" viewBox="0 0 24 24" width={24} height={24}>
                   <path d="M18.77,7.46H14.5v-1.9c0-0.9,0.6-1.1,1-1.1h3V0.13H14.5c-4.1,0-5,2.9-5,4.8v2.5H6v4.5h3.5V22h5V11.96h3.35L18.77,7.46z" />
                 </svg>
               </a>
               <a href="https://x.com/Teenpattisky" target="_blank" rel="noopener noreferrer" aria-label="Twitter / X">
-                <svg className="w-6 h-6 text-gray-400 hover:text-accent transition-colors" fill="currentColor" viewBox="0 0 24 24">
+                <svg className="w-6 h-6 text-gray-400 hover:text-accent transition-colors shrink-0" fill="currentColor" viewBox="0 0 24 24" width={24} height={24}>
                   <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
                 </svg>
               </a>

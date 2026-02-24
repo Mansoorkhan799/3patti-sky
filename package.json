@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "critters": "^0.0.23",
     "next": "^15.5.9",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -32,10 +31,10 @@
   },
   "browserslist": {
     "production": [
-      "chrome >= 90",
-      "firefox >= 88",
-      "safari >= 14",
-      "edge >= 90"
+      "chrome >= 93",
+      "firefox >= 92",
+      "safari >= 15.4",
+      "edge >= 93"
     ],
     "development": [
       "last 1 chrome version",

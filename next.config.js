@@ -116,7 +116,8 @@ const nextConfig = {
 
   // Enable experimental features
   experimental: {
-    optimizeCss: true,
+    // Inline CSS in HTML to eliminate render-blocking request (saves ~140ms)
+    inlineCss: true,
     scrollRestoration: true,
     optimizePackageImports: ['react-icons'],
   },
