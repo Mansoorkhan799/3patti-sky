@@ -2,13 +2,13 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className="bg-primary text-white py-8 px-4 md:px-8 border-t border-gray-800 relative z-20 min-h-[400px] md:min-h-[350px]" style={{ contain: 'layout' }}>
+    <footer className="bg-primary text-white py-8 px-4 md:px-8 border-t border-gray-800 relative z-20 min-h-[450px]">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {/* About Column - min-h reserves space to prevent CLS */}
-          <div className="min-h-[5rem]">
+          {/* About Column - fixed dimensions prevent CLS */}
+          <div className="min-h-[6rem]">
             <h3 className="text-xl font-bold text-accent mb-4">3Patti Sky</h3>
-            <p className="text-sm text-gray-300 mb-4 min-h-[3.5rem]">
+            <p className="text-sm text-gray-300 mb-4 leading-relaxed" style={{ minHeight: '4.5rem' }}>
               3Patti Sky is Pakistan's premier card gaming platform, offering Teen Patti, Rummy, Dragon vs Tiger and many other exciting games. Earn real cash with JazzCash & EasyPaisa payments.
             </p>
             <div className="flex space-x-4">

@@ -98,9 +98,11 @@ svg {
   pointer-events: none;
 }
 
-/* Prevent footer layout shift - contain isolates layout calculations */
+/* Prevent footer layout shift - reserve space and isolate layout */
 footer {
   contain: layout style;
+  content-visibility: auto;
+  contain-intrinsic-block-size: 450px;
 }
 
 /* Optimize font loading to prevent CLS */
