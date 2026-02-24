@@ -25,6 +25,7 @@ body {
     rgb(var(--background-start-rgb));
   /* Prevent CLS from scrollbar */
   overflow-y: scroll;
+  padding-bottom: 0;
 }
 
 /* Prevent CLS by ensuring images don't shift layout */
@@ -97,15 +98,9 @@ svg {
   pointer-events: none;
 }
 
-/* Prevent footer layout shift */
+/* Prevent footer layout shift - contain isolates layout calculations */
 footer {
   contain: layout style;
-  will-change: auto;
-}
-
-/* Reserve space for footer to prevent CLS */
-body {
-  padding-bottom: 0;
 }
 
 /* Optimize font loading to prevent CLS */

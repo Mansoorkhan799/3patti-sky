@@ -98,10 +98,13 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        {/* DNS prefetch for better performance */}
-        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-        <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
+        {/* Only preconnect to GTM when GA is used - avoids unused preconnect warning */}
+        {process.env.NEXT_PUBLIC_GA_ID && (
+          <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        )}
         
+        {/* Preload LCP image to reduce render-blocking impact */}
+        <link rel="preload" href="/3-Patti-Sky.webp" as="image" type="image/webp" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
