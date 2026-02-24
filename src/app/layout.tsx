@@ -103,8 +103,6 @@ export default function RootLayout({
           <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         )}
         
-        {/* Preload LCP image to reduce render-blocking impact */}
-        <link rel="preload" href="/3-Patti-Sky.webp" as="image" type="image/webp" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
