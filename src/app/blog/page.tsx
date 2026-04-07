@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { Metadata } from 'next';
 import BlogSearch from './BlogSearch';
 
@@ -31,61 +30,12 @@ const BLOG_POSTS = [
   { slug: 'how-to-create-account-login', title: 'How to Create Account and Login in 3Patti Sky', description: 'Complete step-by-step guide on creating an account and logging in to 3Patti Sky. Learn registration, verification, and login process.', date: 'January 2026', readTime: '6 min read', featured: false },
 ];
 
-function filterPosts(posts: typeof BLOG_POSTS, query?: string) {
-  if (!query || !query.trim()) return posts;
-  const q = query.trim().toLowerCase();
-  return posts.filter(
-    (p) =>
-      p.title.toLowerCase().includes(q) ||
-      p.description.toLowerCase().includes(q) ||
-      p.slug.toLowerCase().includes(q)
-  );
-}
-
-export default async function Blog({ searchParams }: { searchParams?: Promise<{ q?: string }> }) {
-  const params = await searchParams;
-  const query = params?.q;
-  const filteredPosts = filterPosts(BLOG_POSTS, query);
-
+export default function Blog() {
   return (
     <div className="container mx-auto px-4 py-12">
       <h1 className="text-3xl md:text-4xl font-bold mb-8 text-accent">3Patti Sky Blog</h1>
       <p className="text-gray-300 mb-8 text-lg">Stay updated with the latest guides and information about 3Patti Sky</p>
-      
-      <BlogSearch />
-      
-      {query && (
-        <p className="text-gray-400 mb-6">
-          {filteredPosts.length > 0
-            ? `Showing ${filteredPosts.length} result${filteredPosts.length === 1 ? '' : 's'} for &quot;${query}&quot;`
-            : `No results found for &quot;${query}&quot;. Showing all posts.`}
-        </p>
-      )}
-      
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {(query && filteredPosts.length === 0 ? BLOG_POSTS : filteredPosts).map((post) => (
-          <div
-            key={post.slug}
-            className={`bg-secondary px-8 py-8 rounded-lg hover:shadow-lg transition-all ${post.featured ? 'border-2 border-[#FFA500]' : ''}`}
-          >
-            {post.featured && (
-              <div className="inline-block bg-[#FFA500] text-white text-xs font-bold px-3 py-1 rounded-full mb-3">
-                ⭐ FEATURED
-              </div>
-            )}
-            <h2 className="text-2xl font-bold mb-4 text-white">{post.title}</h2>
-            <p className="text-gray-300 mb-4">{post.description}</p>
-            <div className="flex items-center gap-2 text-sm text-gray-400 mb-4">
-              <span>📅 {post.date}</span>
-              <span>•</span>
-              <span>{post.readTime}</span>
-            </div>
-            <Link href={`/blog/${post.slug}`} className="text-accent hover:underline font-semibold">
-              Read More →
-            </Link>
-          </div>
-        ))}
-      </div>
+      <BlogSearch posts={BLOG_POSTS} />
     </div>
   );
 } 
